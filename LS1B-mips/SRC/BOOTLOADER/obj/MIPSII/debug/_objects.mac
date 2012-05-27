@@ -1,0 +1,10 @@
+OBJECTS=\
+    obj\MIPSII\debug\main.obj\
+    obj\MIPSII\debug\debug.obj\
+    obj\MIPSII\debug\flash.obj\
+    obj\MIPSII\debug\eth.obj\
+    obj\MIPSII\debug\pci.obj\
+    obj\MIPSII\debug\menu.obj\
+    obj\MIPSII\debug\uart.obj\
+    obj\MIPSII\debug\startup.obj
+

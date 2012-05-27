@@ -1,0 +1,94 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+;-------------------------------------------------------------------------------
+;
+; SolutionGear2/Rockhopper2 memory configuration
+;
+; Rockhopper CPU VR5500 board has 128MB DRAM (0x00000000 to 0x07FFFFFF) and
+; 32MB FLASH (0x18000000 to 0x1BFFFFFF). When boot from flash is selected
+; by jumpers last 4MB of flash is mapped also to address 0x1FC00000 where CPU
+; jumps on reset. See eboot.bib file for more details.
+;
+; NK region bellow is temporary based on 0x80800000 with size 0x02800000 to make
+; image working with bootloader version 2.2. When all Rockhoppers are updated
+; to bootloader 2.3 region can start at 0x80001000 with size 0x02FFF000.
+;
+;
+;-------------------------------------------------------------------------------
+;
+
+MEMORY
+    NK          80800000  03800000  RAMIMAGE
+    RAM         84000000  03FFF800  RAM
+    ARGS        87FFF800  00000800  RESERVED
+    FLASH       98000000  01C00000  RESERVED
+
+; This fix-up variable is a bitfield that can be used to initialize
+; the OAL debug zones per oal_log.h.  Uncomment the line and
+; change the hexidecimal bits to enable the desired zones.  The
+; default value (0x0000000B) enables the OAL_LOG_ERROR,
+; OAL_LOG_WARN, and OAL_LOG_INFO zones, and will be used by
+; OEMInit if the line remains commented out.
+;
+;  nk.exe:initialOALLogZones     00000000 0x0000000B       FIXUPVAR
+
+; This fix-up variable determines the amount of memory the BSP
+; reserves for Watson dump capture.  The current default behavior is
+; to default to zero unless the image has SYSGEN_WATSON_DMPGEN
+; defined.  The default size is 300KiB.
+;
+; @CESYSGEN IF CE_MODULES_OSAXST0
+nk.exe:dwOEMDrWatsonSize  00000000   0x4B000               FIXUPVAR
+; @CESYSGEN ENDIF
+
+;-------------------------------------------------------------------------------
+
+CONFIG
+
+; @CESYSGEN IF !NK_NKNOCOMP
+   COMPRESSION=ON
+; @CESYSGEN ENDIF !NK_NKNOCOMP
+; @CESYSGEN IF NK_NKNOCOMP
+; @CESYSGEN ENDIF NK_NKNOCOMP
+
+    KERNELFIXUPS=ON
+    AUTOSIZE=ON
+
+IF IMGFLASH
+    ROMOFFSET=17800000
+ENDIF
+
+IF IMGPROFILER
+    PROFILE=ON
+ELSE
+    PROFILE=OFF
+ENDIF
+
+IF IMGSRE
+    SRE=ON
+ELSE
+    SRE=OFF
+ENDIF
+
+;
+; ROMFLAGS is a bitmask of options for the kernel
+;   ROMFLAGS    0x0001      Disallow Paging
+;   ROMFLAGS    0x0010      Trust Module only
+;
+IF IMGTRUSTROMONLY
+    ROMFLAGS=10
+ELSE
+    ROMFLAGS=00
+ENDIF
+
+;-------------------------------------------------------------------------------

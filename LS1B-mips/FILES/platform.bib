@@ -1,0 +1,189 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+;===============================================================================
+
+MODULES
+;Name             Path                                        Memory Type
+;--------------   ------------------------------------------  -----------
+;
+; @CESYSGEN IF CE_MODULES_DEVICE
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_PCI
+IF BSP_NOPCIBUS !
+PCIbus.dll          $(_FLATRELEASEDIR)\PCIbus.dll               NK SHK
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_PCCARD
+IF BSP_NOPCCARD !
+IF BSP_PCCARD_TIPCCARD
+pcc_tipccard.dll    $(_FLATRELEASEDIR)\pcc_tipccard.dll         NK SHK
+ENDIF BSP_PCCARD_TIPCCARD
+pcc_serv.dll        $(_FLATRELEASEDIR)\pcc_serv.dll             NK SHK
+pcmcia.dll          $(_FLATRELEASEDIR)\pcc_pcm.dll              NK SHK
+ENDIF BSP_NOPCCARD !
+; @CESYSGEN ENDIF CE_MODULES_PCCARD
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_WAVEAPI
+IF BSP_NOAUDIO !
+IF BSP_WAVEDEV_ES1371
+es1371.dll          $(_FLATRELEASEDIR)\es1371.dll               NK SHK
+ENDIF BSP_WAVEDEV_ES1371
+IF BSP_WAVEDEV_ENSONIQ
+ensoniq.dll         $(_FLATRELEASEDIR)\ensoniq.dll              NK SHK
+ENDIF BSP_WAVEDEV_ENSONIQ
+ENDIF BSP_NOAUDIO !
+; @CESYSGEN ENDIF CE_MODULES_WAVEAPI
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_USBD
+IF BSP_USB_OHCI
+ohci2.dll           $(_FLATRELEASEDIR)\ohci2.dll                NK SHK
+ENDIF BSP_USB_OHCI
+IF BSP_USB_UHCI
+uhci.dll            $(_FLATRELEASEDIR)\uhci.dll                 NK SHK
+ENDIF BSP_USB_UHCI
+IF BSP_USB_EHCI
+ehci.dll            $(_FLATRELEASEDIR)\ehci.dll                 NK SHK
+ENDIF BSP_USB_EHCI
+; @CESYSGEN ENDIF CE_MODULES_USBD
+;-------------------------------------------------------------------------------
+
+ENDIF BSP_NOPCIBUS !
+; @CESYSGEN ENDIF CE_MODULES_PCI
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_KEYBD || CE_MODULES_POINTER
+#if ! (defined BSP_NOKEYBD && defined BSP_NOMOUSE)
+
+IF LOCALE=0411 !
+IF LOCALE=0412 !
+IF BSP_KEYBD_NOP
+; @CESYSGEN IF CE_MODULES_NOPKEYBOARD
+kbdmouse.dll        $(_FLATRELEASEDIR)\KbdNopUS.dll             NK SHK
+; @CESYSGEN ENDIF CE_MODULES_NOPKEYBOARD
+ENDIF BSP_KEYBD_NOP
+IF BSP_KEYBD_NOP !
+; @CESYSGEN IF CE_MODULES_8042KEYBOARD 
+kbdmouse.dll        $(_FLATRELEASEDIR)\Kbd8042US.dll            NK SHK
+; @CESYSGEN ENDIF CE_MODULES_8042KEYBOARD 
+ENDIF BSP_KEYBD_NOP
+ENDIF LOCALE=0412 !
+ENDIF LOCALE=0411 !
+
+IF LOCALE=0411
+IF BSP_KEYBD_JPN1
+IF BSP_KEYBD_NOP
+; @CESYSGEN IF CE_MODULES_NOPKEYBOARD
+kbdmouse.dll        $(_FLATRELEASEDIR)\KbdNopJpn1.dll           NK SHK
+; @CESYSGEN ENDIF CE_MODULES_NOPKEYBOARD
+ENDIF BSP_KEYBD_NOP
+IF BSP_KEYBD_NOP !
+; @CESYSGEN IF CE_MODULES_8042KEYBOARD 
+kbdmouse.dll        $(_FLATRELEASEDIR)\Kbd8042Jpn1.dll          NK SHK
+; @CESYSGEN ENDIF CE_MODULES_8042KEYBOARD 
+ENDIF BSP_KEYBD_NOP !
+ENDIF BSP_KEYBD_JPN1
+IF BSP_KEYBD_JPN1 !
+IF BSP_KEYBD_NOP
+; @CESYSGEN IF CE_MODULES_NOPKEYBOARD
+kbdmouse.dll        $(_FLATRELEASEDIR)\KbdNopJpn2.dll           NK SHK
+; @CESYSGEN ENDIF CE_MODULES_NOPKEYBOARD
+ENDIF BSP_KEYBD_NOP
+IF BSP_KEYBD_NOP !
+; @CESYSGEN IF CE_MODULES_8042KEYBOARD 
+kbdmouse.dll        $(_FLATRELEASEDIR)\Kbd8042Jpn2.dll          NK SHK
+; @CESYSGEN ENDIF CE_MODULES_8042KEYBOARD 
+ENDIF BSP_KEYBD_NOP
+ENDIF BSP_KEYBD_JPN1 !
+ENDIF LOCALE=0411
+
+IF LOCALE=0412
+IF BSP_KEYBD_NOP
+; @CESYSGEN IF CE_MODULES_NOPKEYBOARD
+kbdmouse.dll        $(_FLATRELEASEDIR)\KbdNopKor.dll            NK SHK
+; @CESYSGEN ENDIF CE_MODULES_NOPKEYBOARD
+ENDIF BSP_KEYBD_NOP
+IF BSP_KEYBD_NOP !
+; @CESYSGEN IF CE_MODULES_8042KEYBOARD 
+kbdmouse.dll        $(_FLATRELEASEDIR)\Kbd8042Kor.dll           NK SHK
+; @CESYSGEN ENDIF CE_MODULES_8042KEYBOARD 
+ENDIF BSP_KEYBD_NOP !
+ENDIF LOCALE=0412
+
+#endif !(defined BSP_NOKEYBD && defined BSP_NOMOUSE)
+; @CESYSGEN ENDIF CE_MODULES_KEYBD || CE_MODULES_POINTER
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF COREDLL_SERDEV
+IF BSP_NOSERIAL !
+    com16550.dll        $(_FLATRELEASEDIR)\com16550.dll             NK SHK
+    isr16550.dll    $(_FLATRELEASEDIR)\isr16550.dll               NK  SHK
+ENDIF BSP_NOSERIAL
+; @CESYSGEN ENDIF COREDLL_SERDEV
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_IRDASTK
+IF BSP_NOSIR !
+irsir.dll           $(_FLATRELEASEDIR)\irsir.dll                NK SHK
+ENDIF BSP_NOSIR !
+; @CESYSGEN ENDIF CE_MODULES_IRDASTK
+;-------------------------------------------------------------------------------
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_BATTDRVR
+IF BSP_NOBATTERY !
+battdrvr.dll        $(_FLATRELEASEDIR)\battdrvr.dll             NK SHK
+ENDIF BSP_NOBATTERY !
+; @CESYSGEN ENDIF CE_MODULES_BATTDRVR
+;-------------------------------------------------------------------------------
+
+; @CESYSGEN ENDIF CE_MODULES_DEVICE
+;-------------------------------------------------------------------------------
+
+FILES
+;Name             Path                                        Memory Type
+;--------------   ------------------------------------------  -----------
+;
+; @CESYSGEN IF CE_MODULES_DEVICE
+
+;-------------------------------------------------------------------------------
+; @CESYSGEN IF CE_MODULES_GIISR
+giisr.dll           $(_FLATRELEASEDIR)\giisr.dll                NK SH
+; @CESYSGEN ENDIF CE_MODULES_GIISR
+;-------------------------------------------------------------------------------
+    
+; @CESYSGEN ENDIF CE_MODULES_DEVICE
+
+
+;;------------------------------------------------------------------------------
+;; Bring in FakeRIL for Cellcore
+;;------------------------------------------------------------------------------
+; @CESYSGEN IF CELLCORE_MODULES_RIL
+IF IMGFAKERIL
+    fakeril.dll                 $(_FLATRELEASEDIR)\fakeril.dll              NK SHK
+IF IMGFAKERILNETWORK
+    fakeril_intermediate.dll    $(_FLATRELEASEDIR)\fakeril_intermediate.dll NK SHK
+ENDIF ; IMGFAKERILNETWORK
+ENDIF ; IMGFAKERIL
+; @CESYSGEN ENDIF CELLCORE_MODULES_RIL
+;;------------------------------------------------------------------------------
+
+
+;===============================================================================

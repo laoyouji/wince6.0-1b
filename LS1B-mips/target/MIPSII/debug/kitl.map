@@ -1,0 +1,743 @@
+ kitl
+
+ Timestamp is 4f96ec75 (Wed Apr 25 02:09:57 2012)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00004a40H .rdata                  CODE
+ 0001:00004a40 00000021H .rdata$debug            CODE
+ 0001:00004a64 0001a324H .text                   CODE
+ 0001:0001ed88 00000068H .xdata                  CODE
+ 0001:0001edf0 00000031H .edata                  CODE
+ 0002:00000000 0000054cH .data                   DATA
+ 0002:00000560 0003e824H .bss                    DATA
+ 0003:00000000 00001630H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:000000ac       ??_C@_0CA@LOGAKJHD@?9OALArgsQuery?$CIpData?5?$DN?50x?$CF08x?$CJ?$AN?6?$AA@ 100010ac     args.obj
+ 0001:000000cc       ??_C@_0BE@BBPDMIKG@?$CLOALArgsQuery?$CI?$CFd?$CJ?$AN?6?$AA@ 100010cc     args.obj
+ 0001:000000e0       ??_C@_1BM@OIEDAOIB@?$AAV?$AAr?$AAc?$AA5?$AA4?$AA7?$AA7?$AA?5?$AAU?$AAA?$AAR?$AAT?$AA1?$AA?$AA@ 100010e0     kitl.obj
+ 0001:000000fc       ??_C@_1BM@PLGBNMNB@?$AAR?$AAT?$AAL?$AA?5?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AA?5?$AA?5?$AA?$AA@ 100010fc     kitl.obj
+ 0001:00000118       ??_C@_1BM@LLCLGIJG@?$AAA?$AAM?$AAD?$AA?5?$AAA?$AAm?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AA?5?$AA?$AA@ 10001118     kitl.obj
+ 0001:000001c4       ??_C@_0BJ@OKHENJGB@?9OALKitlStart?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 100011c4     kitl.obj
+ 0001:000001e0       ??_C@_0CG@DIOAFBOG@ERROR?3?5PCI?5Bus?5configuration?5fai@ 100011e0     kitl.obj
+ 0001:00000208       ??_C@_05HLOLNAHC@SGEAR?$AA@ 10001208     kitl.obj
+ 0001:00000210       ??_C@_0CP@HIPALHGN@WARN?3?5Boot?5arguments?5not?5found?0?5@ 10001210     kitl.obj
+ 0001:00000240       ??_C@_0BA@IBJBKNBD@?$CLOALKitlStart?$AN?6?$AA@ 10001240     kitl.obj
+ 0001:000002e0       ??_C@_0CA@PHILFGNL@Changed?5KITL?5zone?5mask?5to?50x?$CFX?6?$AA@ 100012e0     kitlcore:ethdbg.obj
+ 0001:00000300       ??_C@_0CP@OKNACMFC@KITL?3?5DEBUGCHK?5failed?5in?5file?5?$CFs@ 10001300     kitlcore:ethdbg.obj
+ 0001:00000330       ??_C@_0DD@CPHDILKK@C?3?2ymzki?2private?2winceos?2COREOS?2@ 10001330     kitlcore:ethdbg.obj
+ 0001:00000364       ??_C@_0DC@LLJMBDFH@?$CBKITLRegisterDfltClient?3?5Fail?5to@ 10001364     kitlcore:ethdbg.obj
+ 0001:00000398       ??_C@_0CF@PIAHHHCH@?$CLKITLRegisterDfltClient?0?5service@ 10001398     kitlcore:ethdbg.obj
+ 0001:000003c0       ??_C@_0EE@LCCLDMNC@?9KITLRegisterClient?$CI?$CFs?$CJ?3?5Flags?3?5@ 100013c0     kitlcore:ethdbg.obj
+ 0001:00000404       ??_C@_1JC@DNGAJENF@?$AAK?$AAI?$AAT?$AAL?$AAR?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AAC?$AAl?$AAi?$AAe?$AAn?$AAt?$AA?3?$AA?5?$AAp?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AAP?$AAo?$AAo?$AAl?$AA?5@ 10001404     kitlcore:ethdbg.obj
+ 0001:00000498       ??_C@_0EE@DHNHGKFP@?$CLKITLRegisterClient?$CI?$CFs?$CJ?3?5Flags?3?5@ 10001498     kitlcore:ethdbg.obj
+ 0001:000004dc       ??_C@_0DN@GDEGDLCL@?$CBKITLRegisterClient?$CI?$CFs?$CJ?3?5Client?5@ 100014dc     kitlcore:ethdbg.obj
+ 0001:0000051c       ??_C@_0DG@FHPIAJCD@?$CBKITLRegisterClient?$CI?$CFs?$CJ?3?5No?5avai@ 1000151c     kitlcore:ethdbg.obj
+ 0001:00000554       ??_C@_0CP@LFECMIMJ@?$CBDoRegisterClient?$CI?$CFs?$CJ?3?5Invalid?5w@ 10001554     kitlcore:ethdbg.obj
+ 0001:00000584       ??_C@_0DO@NHOEDOMO@?$CBDoRegisterClient?$CI?$CFs?$CJ?3?5Need?5to?5s@ 10001584     kitlcore:ethdbg.obj
+ 0001:000005c4       ??_C@_0CK@GNMBECNI@?$CBDoRegisterClient?$CI?$CFs?$CJ?3?5Invalid?5p@ 100015c4     kitlcore:ethdbg.obj
+ 0001:000005f0       ??_C@_04HIBGFPH@NULL?$AA@  100015f0     kitlcore:ethdbg.obj
+ 0001:000005f8       ??_C@_0CB@GAEKFKGC@?9RegisterClientPart2?5returns?5?$CFd?6@ 100015f8     kitlcore:ethdbg.obj
+ 0001:0000061c       ??_C@_0CA@NGKEKANM@Closing?5Handle?5of?5Timer?5Thread?6?$AA@ 1000161c     kitlcore:ethdbg.obj
+ 0001:0000063c       ??_C@_0BN@FPKBKHBK@Error?5creating?5timer?5thread?6?$AA@ 1000163c     kitlcore:ethdbg.obj
+ 0001:0000065c       ??_C@_0BP@CEIGPPLL@?$CLRegisterClientPart2?3?5Id?50x?$CFX?6?$AA@ 1000165c     kitlcore:ethdbg.obj
+ 0001:0000067c       ??_C@_0CF@HHGPCOPG@?9KITLDeregisterClient?0?5Id?3?$CFu?5ret@ 1000167c     kitlcore:ethdbg.obj
+ 0001:000006a4       ??_C@_0CP@KBFNKJIP@KITLDeregisterClient?$FL?$CFu?$FN?9already@ 100016a4     kitlcore:ethdbg.obj
+ 0001:000006d4       ??_C@_0CG@LJKJDKF@KITLDeregisterClient?3?5invalid?5ID@ 100016d4     kitlcore:ethdbg.obj
+ 0001:000006fc       ??_C@_0BO@GDFIOKBN@?$CLKITLDeregisterClient?0?5Id?3?$CFu?6?$AA@ 100016fc     kitlcore:ethdbg.obj
+ 0001:0000071c       ??_C@_0CB@GFDDAGEF@Error?5creating?5interrupt?5thread?6@ 1000171c     kitlcore:ethdbg.obj
+ 0001:00000740       ??_C@_0BD@OAGEIDKN@KITL?5Creating?5IST?6?$AA@ 10001740     kitlcore:ethdbg.obj
+ 0001:00000754       ??_C@_0CE@DNEFLEAI@KITL?5Checking?5client?5registratio@ 10001754     kitlcore:ethdbg.obj
+ 0001:00000778       ??_C@_0CE@FKCJJLLC@KITL?3?5Leaving?5polling?5mode?4?4?4?50x@ 10001778     kitlcore:ethdbg.obj
+ 0001:0000079c       ??_C@_0DH@MFOCECCL@?$AN?6?$CBUnable?5to?5establish?5KITL?5conn@ 1000179c     kitlcore:ethdbg.obj
+ 0001:000007d4       ??_C@_0DN@NDJFLFHF@?$AN?6?$CBKitl?5buffer?5specified?5by?5OAL?5@ 100017d4     kitlcore:ethdbg.obj
+ 0001:00000814       ??_C@_0BI@OFAMBHJH@Connecting?5to?5Desktop?$AN?6?$AA@ 10001814     kitlcore:ethdbg.obj
+ 0001:0000082c       ??_C@_0CF@GGNNPHKD@Connecting?5to?5Desktop?5?4?4?5resendi@ 1000182c     kitlcore:ethdbg.obj
+ 0001:00000854       ??_C@_04MOKOCOLM@KDBG?$AA@ 10001854     kitlcore:ethdbg.obj
+ 0001:0000085c       ??_C@_04JMJJJNGP@PPSH?$AA@ 1000185c     kitlcore:ethdbg.obj
+ 0001:00000864       ??_C@_06MCCIJHBO@DBGMSG?$AA@ 10001864     kitlcore:ethdbg.obj
+ 0001:0000086c       ??_C@_0BK@OPBJDOAA@Enabling?5adapter?5ints?4?4?4?6?$AA@ 1000186c     kitlcore:ethdbg.obj
+ 0001:00000888       ??_C@_0EO@CEOOKDBM@?$CBKITL?5Interrupt?5thread?5got?5error@ 10001888     kitlcore:ethdbg.obj
+ 0001:000008d8       ??_C@_0BL@PLNAMGGN@Processed?5Interrupt?5event?6?$AA@ 100018d8     kitlcore:ethdbg.obj
+ 0001:000008f4       ??_C@_0BG@IBEGMBIN@KITL?5Interrupt?5event?6?$AA@ 100018f4     kitlcore:ethdbg.obj
+ 0001:0000090c       ??_C@_1FK@FNONLNGN@?$AA?$CF?$AAs?$AA?3?$AA?5?$AAD?$AAE?$AAB?$AAU?$AAG?$AAC?$AAH?$AAK?$AA?5?$AAf?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?5?$AAi?$AAn?$AA?5?$AAf?$AAi?$AAl?$AAe?$AA?5?$AA?$CF?$AAs?$AA?5?$AAa@ 1000190c     kitlcore:ethdbg.obj
+ 0001:00000968       ??_C@_1BA@LEPJIIOK@?$AAU?$AAn?$AAk?$AAn?$AAo?$AAw?$AAn?$AA?$AA@ 10001968     kitlcore:ethdbg.obj
+ 0001:00000978       ??_C@_1GG@DJAAKJMI@?$AAC?$AA?3?$AA?2?$AAy?$AAm?$AAz?$AAk?$AAi?$AA?2?$AAp?$AAr?$AAi?$AAv?$AAa?$AAt?$AAe?$AA?2?$AAw?$AAi?$AAn?$AAc?$AAe?$AAo?$AAs?$AA?2?$AAC?$AAO?$AAR?$AAE?$AAO?$AAS?$AA?2@ 10001978     kitlcore:ethdbg.obj
+ 0001:000009e0       ??_C@_0CB@PCGPHMPD@KITL?5InterruptInitialize?5failed?6@ 100019e0     kitlcore:ethdbg.obj
+ 0001:00000a04       ??_C@_0BK@HDMNDFBA@KITL?5CreateEvent?5failed?$CB?6?$AA@ 10001a04     kitlcore:ethdbg.obj
+ 0001:00000a20       ??_C@_1BK@PPDMEPMD@?$AAE?$AAd?$AAb?$AAg?$AAI?$AAn?$AAt?$AAE?$AAv?$AAe?$AAn?$AAt?$AA?$AA@ 10001a20     kitlcore:ethdbg.obj
+ 0001:00000a3c       ??_C@_0EI@HCIGFCPA@KITL?5Interrupt?5thread?5started?5?$CIh@ 10001a3c     kitlcore:ethdbg.obj
+ 0001:00000a84       ??_C@_0M@CDHNGIPM@?$CFu?4?$CFu?4?$CFu?4?$CFu?$AA@ 10001a84     kitlcore:debug.obj
+ 0001:00000a90       ??_C@_0DA@KOJGDENJ@?$CBExchangeConfig?3?5WaitForMultiple@ 10001a90     kitlcore:edbgprot.obj
+ 0001:00000ac0       ??_C@_0DL@JCMIMDFC@Waiting?5for?5service?5?8?$CFs?8?5to?5conn@ 10001ac0     kitlcore:edbgprot.obj
+ 0001:00000afc       ??_C@_0CF@ELFKFCIB@?$CBSendConfig?3?5Error?5in?5KitlSendFr@ 10001afc     kitlcore:edbgprot.obj
+ 0001:00000b24       ??_C@_0N@DPCKIDMJ@?$DO?$DOSendConfig?$AA@ 10001b24     kitlcore:edbgprot.obj
+ 0001:00000b34       ??_C@_0BO@OHFCENNA@?$CBSendConfig?3?5Stack?5overflow?$AN?6?$AA@ 10001b34     kitlcore:edbgprot.obj
+ 0001:00000b54       ??_C@_0CB@MCDILJMK@?$CBKITLPollData?3?5STACK?5OVERFLOW?$CB?$AN?6@ 10001b54     kitlcore:edbgprot.obj
+ 0001:00000b78       ??_C@_0BE@LJGMDJBF@?9Send?5?$CI?$CFu?$CJ?3?5Ret?5?$CFu?6?$AA@ 10001b78     kitlcore:edbgprot.obj
+ 0001:00000b8c       ??_C@_0EJ@GPALBKID@KITLSend?3?5Id?3?5?$CFu?5Timed?5out?5waiti@ 10001b8c     kitlcore:edbgprot.obj
+ 0001:00000bd8       ??_C@_0CD@CLDOKAPO@?$CBKITLSend?3?5Error?5in?5KitlSendFram@ 10001bd8     kitlcore:edbgprot.obj
+ 0001:00000bfc       ??_C@_0L@GNNICFIO@?$DO?$DOKITLSend?$AA@ 10001bfc     kitlcore:edbgprot.obj
+ 0001:00000c08       ??_C@_0DC@NFAJIDMM@KITLSend?$CI?$CFu?$CJ?3?5Client?5de?9register@ 10001c08     kitlcore:edbgprot.obj
+ 0001:00000c3c       ??_C@_0FD@BAMAHPPH@0x?$CFx?5?$CI0x?$CFx?$CJ?3?5KITLSend?$CI?$CFu?$CJ?3?5Timed@ 10001c3c     kitlcore:edbgprot.obj
+ 0001:00000c90       ??_C@_0DP@NKADLCEM@KITLSend?$CI?$CFu?$CJ?3?5Tx?5window?5full?5?$CIAc@ 10001c90     kitlcore:edbgprot.obj
+ 0001:00000cd0       ??_C@_0DJ@CHBCIFD@?$CLKITLSend?$CI?$CFu?$CJ?0?5Len?3?5?$CFu?0?5Seq?3?5?$CFu?0@ 10001cd0     kitlcore:edbgprot.obj
+ 0001:00000d0c       ??_C@_0DI@DLCMJFKN@?$CBKITLSend?$CI?$CFu?$CJ?3?5KITL_USE_SYSCALLS@ 10001d0c     kitlcore:edbgprot.obj
+ 0001:00000d44       ??_C@_02DKCKIIND@?$CFs?$AA@ 10001d44     kitlcore:edbgprot.obj
+ 0001:00000d48       ??_C@_0DP@FELNBMKM@?$CBKITLSend?$CI?$CFu?$CJ?3?5In?5syscall?5with?5C@ 10001d48     kitlcore:edbgprot.obj
+ 0001:00000d88       ??_C@_0DI@BNMJMCKD@KITLSend?$CI?$CFu?$CJ?3?5InSysCall?5or?5InPow@ 10001d88     kitlcore:edbgprot.obj
+ 0001:00000dc0       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 10001dc0     kitlcore:edbgprot.obj
+ 0001:00000dc4       ??_C@_0DD@OOGFOEID@?$CBKITLSend?$CIDBGMSG?$CJ?3?5Reentrant?5cal@ 10001dc4     kitlcore:edbgprot.obj
+ 0001:00000df8       ??_C@_0DK@DPCAMIHE@?$CBKITLSend?3?5Data?5to?5be?5send?5overl@ 10001df8     kitlcore:edbgprot.obj
+ 0001:00000e34       ??_C@_0BN@OHMKNAC@?$CBKITLSend?3?5Buffer?5too?5large?6?$AA@ 10001e34     kitlcore:edbgprot.obj
+ 0001:00000e54       ??_C@_0CM@CLKKFLBC@?$CBRetransmitFrame?3?5Error?5in?5KitlS@ 10001e54     kitlcore:edbgprot.obj
+ 0001:00000e80       ??_C@_0DK@IEKHHEOI@RetransmitFrame?$CIId?3?$CFu?$CJ?0?5Seq?3?5?$CFu?0@ 10001e80     kitlcore:edbgprot.obj
+ 0001:00000ebc       ??_C@_0N@MAHOMCPK@?$DO?$DORetransmit?$AA@ 10001ebc     kitlcore:edbgprot.obj
+ 0001:00000ecc       ??_C@_0DJ@FKGIBMLE@?$CBRetransmitFrame?3?5Frame?5seq?5?$CFu?5n@ 10001ecc     kitlcore:edbgprot.obj
+ 0001:00000f08       ??_C@_0DH@PPIJALHK@?9KITLRecv?$CI?$CFu?$CJ?3?5Read?5?$CFu?5bytes?5fro@ 10001f08     kitlcore:edbgprot.obj
+ 0001:00000f40       ??_C@_0DO@DJKEMME@KITL?$CI?$CFu?$CJ?3?5Client?5de?9registered?5w@ 10001f40     kitlcore:edbgprot.obj
+ 0001:00000f80       ??_C@_0CL@BNPAPIIB@KITL?$CI?$CFu?$CJ?3?5Timed?5out?5waiting?5for?5@ 10001f80     kitlcore:edbgprot.obj
+ 0001:00000fac       ??_C@_0CL@FAMFOGBN@KITL?$CI?$CFu?$CJ?3?5Timed?5out?5polling?5for?5@ 10001fac     kitlcore:edbgprot.obj
+ 0001:00000fd8       ??_C@_0EN@PICLEEHD@?$CLKITLRecv?$CI?$CFu?$CJ?3?5Waiting?5for?5messa@ 10001fd8     kitlcore:edbgprot.obj
+ 0001:00001028       ??_C@_0CP@HOJLGBBA@?$CBKITLRecv?$CI?$CFu?$CJ?3?5SYSCALLS?5for?5clie@ 10002028     kitlcore:edbgprot.obj
+ 0001:00001058       ??_C@_0CO@HBIBEOCJ@?$CBKITLRecv?$CI?$CFu?$CJ?3?5In?5syscall?5with?5C@ 10002058     kitlcore:edbgprot.obj
+ 0001:00001088       ??_C@_0BL@EKCNDGH@KITLRecv?$CI?$CFu?$CJ?3?5InSysCall?$CI?$CJ?6?$AA@ 10002088     kitlcore:edbgprot.obj
+ 0001:000010a4       ??_C@_0DJ@KKFBBHCF@?$CBKITLRecv?3?5Receive?5buffer?5overla@ 100020a4     kitlcore:edbgprot.obj
+ 0001:000010e0       ??_C@_0CL@OPFPPJCH@?$AN?6?$CBKITLRecv?3?5Client?5?$CI?$CFd?$CJ?5not?5reg@ 100020e0     kitlcore:edbgprot.obj
+ 0001:0000110c       ??_C@_0CJ@KPACHCHO@?$AN?6?$CBKITLRecv?3?5Invalid?5client?5ID?5?$CF@ 1000210c     kitlcore:edbgprot.obj
+ 0001:00001138       ??_C@_0CH@PDOCBOKH@?$CBKITL?3?5Error?5in?5KitlSendFrame?5fo@ 10002138     kitlcore:edbgprot.obj
+ 0001:00001160       ??_C@_0P@MAADMIHH@?$DO?$DOSendAckNack?5?$AA@ 10002160     kitlcore:edbgprot.obj
+ 0001:00001170       ??_C@_0BP@EJOKEGGJ@?$CBSendAckNack?3?5Stack?5overflow?$AN?6?$AA@ 10002170     kitlcore:edbgprot.obj
+ 0001:00001190       ??_C@_0CA@NAACODDG@Rx?5win?3?5?$CFu?0?$CFu?0?5usesyscalls?3?5?$CFu?6?$AA@ 10002190     kitlcore:edbgprot.obj
+ 0001:000011b0       ??_C@_0CN@BBCENBHL@?$CBKITL?3?5Received?5data?5message?5wit@ 100021b0     kitlcore:edbgprot.obj
+ 0001:000011e0       ??_C@_0DA@OPFEGEEE@?$CBKITL?$CI?$CFu?$CJ?3?5Dropped?5frame?5?$CIseq?3?5?$CF@ 100021e0     kitlcore:edbgprot.obj
+ 0001:00001210       ??_C@_0DP@JICFCGAN@KITL?$CI?$CFu?$CJ?3?5Received?5frame?5Seq?3?5?$CFu@ 10002210     kitlcore:edbgprot.obj
+ 0001:00001250       ??_C@_0DE@NDJGOJN@KITL?$CI?$CFu?$CJ?3?5Tossing?5frame?5?$CFu?5?$CICan?8@ 10002250     kitlcore:edbgprot.obj
+ 0001:00001284       ??_C@_0EJ@IGCHOLJ@KITL?$CI?$CFu?$CJ?3?5Received?5duplicate?5?$CISe@ 10002284     kitlcore:edbgprot.obj
+ 0001:000012d0       ??_C@_0CK@NCOCPCB@KITL?$CI?$CFu?$CJ?3?5Lost?5ACK?5?$CIseq?3?5?$CFu?0?5win@ 100022d0     kitlcore:edbgprot.obj
+ 0001:000012fc       ??_C@_0DK@KIPJLMPC@KITL?$CI?$CFu?$CJ?3?5Received?5msg?5outside?5w@ 100022fc     kitlcore:edbgprot.obj
+ 0001:00001338       ??_C@_0EH@GEPCHLAC@?$CBKITL?$CI?$CFu?$CJ?3?5Received?5NACK?5outside@ 10002338     kitlcore:edbgprot.obj
+ 0001:00001380       ??_C@_0DC@DOOEJJGK@?$CBKITL?$CI?$CFu?$CJ?3?5NACK?5in?5window?0?5but?5T@ 10002380     kitlcore:edbgprot.obj
+ 0001:000013b4       ??_C@_0DG@NIAKHBIH@KITL?$CI?$CFu?$CJ?3?5Received?5NACK?5for?5msg?5@ 100023b4     kitlcore:edbgprot.obj
+ 0001:000013ec       ??_C@_0DF@IFNFDEOL@KITL?$CI?$CFu?$CJ?3?5Received?5ack?5for?5msg?5?$CF@ 100023ec     kitlcore:edbgprot.obj
+ 0001:00001424       ??_C@_0CJ@CFLKBFAK@?$CBKITL?$CI?$CFu?$CJ?5tossing?5msg?5?$CFu?5?$CICan?8t?5@ 10002424     kitlcore:edbgprot.obj
+ 0001:00001450       ??_C@_0EL@IBLAMFGF@?$CBProcessKITLMsg?3?5Mismatch?5in?5ser@ 10002450     kitlcore:edbgprot.obj
+ 0001:0000149c       ??_C@_0CL@FHFBAKPK@?$CBProcessKITLMsg?3?5Client?5?$CFu?5not?5r@ 1000249c     kitlcore:edbgprot.obj
+ 0001:000014c8       ??_C@_0CI@KKKLHIBN@?$CBProcessKITLMsg?3?5Invalid?5Service@ 100024c8     kitlcore:edbgprot.obj
+ 0001:000014f0       ??_C@_0L@HMANIGEC@?$DM?$DMKITLRecv?$AA@ 100024f0     kitlcore:edbgprot.obj
+ 0001:000014fc       ??_C@_0BJ@GGJGBCL@KITL?3?5Invalid?5length?5?$CFu?6?$AA@ 100024fc     kitlcore:edbgprot.obj
+ 0001:00001518       ??_C@_0CA@IJGFJJIG@KITL?3?5Got?5unrecognized?5Id?3?5?$CFX?$AN?6?$AA@ 10002518     kitlcore:edbgprot.obj
+ 0001:00001538       ??_C@_0CM@PPFMALGC@ProcessRecvFrame?3?5Received?5Unhan@ 10002538     kitlcore:edbgprot.obj
+ 0001:00001564       ??_C@_0CK@HJLKKHDE@?$CBProcessAdminMsg?3?5Unhandled?5comm@ 10002564     kitlcore:edbgprot.obj
+ 0001:00001590       ??_C@_0BE@JFHHMBPA@?5KeyIndex?5?$CFd?5?$DN?5?$CFd?5?6?$AA@ 10002590     kitlcore:edbgprot.obj
+ 0001:000015a4       ??_C@_0CM@CCHLHCID@?$CBHost?5config?5message?5size?5mismat@ 100025a4     kitlcore:edbgprot.obj
+ 0001:000015d0       ??_C@_0DH@FAHMLBID@KITL?3?5IOCTL_HAL_REBOOT?5not?5suppo@ 100025d0     kitlcore:edbgprot.obj
+ 0001:00001608       ??_C@_0BJ@HLKLCDLN@KITL?3?5Got?5RESET?5command?6?$AA@ 10002608     kitlcore:edbgprot.obj
+ 0001:00001624       ??_C@_0DI@OCIAAPLH@ProcessAdminMsg?3?5Receive?5Config?5@ 10002624     kitlcore:edbgprot.obj
+ 0001:0000165c       ??_C@_0CO@OMAAFIHE@?$CBReceived?5config?5for?5unrecognize@ 1000265c     kitlcore:edbgprot.obj
+ 0001:0000168c       ??_C@_0DF@JFLDKAPD@?$CBProcessAdminMsg?3?5Invalid?5legnth@ 1000268c     kitlcore:edbgprot.obj
+ 0001:000016c4       ??_C@_0P@LGFIPJFJ@?0?5DataLen?3?5?$CFu?6?$AA@ 100026c4     kitlcore:edbgprot.obj
+ 0001:000016d4       ??_C@_01PKGAHCOL@?$CJ?$AA@ 100026d4     kitlcore:edbgprot.obj
+ 0001:000016d8       ??_C@_04MFNBCIME@DEV?5?$AA@ 100026d8     kitlcore:edbgprot.obj
+ 0001:000016e0       ??_C@_05HOBGPFOJ@NACK?5?$AA@ 100026e0     kitlcore:edbgprot.obj
+ 0001:000016e8       ??_C@_04DMKEMIEL@ACK?5?$AA@ 100026e8     kitlcore:edbgprot.obj
+ 0001:000016f0       ??_C@_01ODHLEDKK@?$CI?$AA@ 100026f0     kitlcore:edbgprot.obj
+ 0001:000016f4       ??_C@_0BM@DFJEJNKL@?5?5Seq?3?$CFu?$CI0x?$CFX?$CJ?0?5Flags?30x?$CFX?5?$AA@ 100026f4     kitlcore:edbgprot.obj
+ 0001:00001710       ??_C@_09CODJGAOM@?5Svc?30x?$CFX?$AA@ 10002710     kitlcore:edbgprot.obj
+ 0001:0000171c       ??_C@_0BI@HBHDLBHB@Unrecognized?5cmd?3?50x?$CFX?5?$AA@ 1000271c     kitlcore:edbgprot.obj
+ 0001:00001734       ??_C@_0BO@FKGFLAJH@TRANSPORT?5CONFIG?0?5flag?5?$DN?50x?$CFx?$AA@ 10002734     kitlcore:edbgprot.obj
+ 0001:00001754       ??_C@_0M@NMHJJIOD@RETRANSMIT?5?$AA@ 10002754     kitlcore:edbgprot.obj
+ 0001:00001760       ??_C@_0CK@EGCFFJGL@DESK?5?$CFs?0?5ProtoVer?3?$CFu?0?5Service?3?5?$CF@ 10002760     kitlcore:edbgprot.obj
+ 0001:0000178c       ??_C@_0DO@HJLCOKEN@DEV?5?$CFs?0?5ProtoVer?3?$CFu?0?5Service?3?5?$CFs@ 1000278c     kitlcore:edbgprot.obj
+ 0001:000017cc       ??_C@_03LLENEDKC@CMD?$AA@  100027cc     kitlcore:edbgprot.obj
+ 0001:000017d0       ??_C@_04DIFPBPL@RESP?$AA@  100027d0     kitlcore:edbgprot.obj
+ 0001:000017d8       ??_C@_03JMDFPPIA@CFG?$AA@  100027d8     kitlcore:edbgprot.obj
+ 0001:000017dc       ??_C@_06KEAEPMBK@RESET?5?$AA@ 100027dc     kitlcore:edbgprot.obj
+ 0001:000017e4       ??_C@_08LKBCIGBL@JUMPIMG?5?$AA@ 100027e4     kitlcore:edbgprot.obj
+ 0001:000017f0       ??_C@_07PKBANKEN@BOOTME?5?$AA@ 100027f0     kitlcore:edbgprot.obj
+ 0001:000017f8       ??_C@_07LMOBHLFA@?5ADMIN?5?$AA@ 100027f8     kitlcore:edbgprot.obj
+ 0001:00001800       ??_C@_06LEIODCGK@?5KDBG?5?$AA@ 10002800     kitlcore:edbgprot.obj
+ 0001:00001808       ??_C@_06KLAGIGLH@?5PPSH?5?$AA@ 10002808     kitlcore:edbgprot.obj
+ 0001:00001810       ??_C@_08GOJDHIDC@?5DBGMSG?5?$AA@ 10002810     kitlcore:edbgprot.obj
+ 0001:0000181c       ??_C@_0DM@HHCOAHOB@?$CBKitlSendFrame?3?5transport?5failed@ 1000281c     kitlcore:edbgprot.obj
+ 0001:00001858       ??_C@_0BP@FOBICGNC@TimerEnt?3?5slot?5?$CFu?0?5expire?3?5?$CFu?6?$AA@ 10002858     kitlcore:timer.obj
+ 0001:00001878       ??_C@_0DC@HJHMLJPO@C?3?2ymzki?2private?2winceos?2COREOS?2@ 10002878     kitlcore:timer.obj
+ 0001:000018ac       ??_C@_0DD@GEBJPFDB@KITL?5Timer?5thread?5started?0?5?$CIhTh?3@ 100028ac     kitlcore:timer.obj
+ 0001:000018e0       ??_C@_0DC@FKEAIDLA@Timer?3?5Inserted?5entry?50x?$CFX?0?5slot@ 100028e0     kitlcore:timer.obj
+ 0001:00001914       ??_C@_0CE@HDEHCBNJ@KITL?5Error?5allocating?5timer?5memo@ 10002914     kitlcore:timer.obj
+ 0001:00001938       ??_C@_0CL@NCIDHHCH@?$CBTimerStop?3?5Timer?5not?5started?5fo@ 10002938     kitlcore:timer.obj
+ 0001:00001964       ??_C@_0CN@NMGOCIEE@Timer?3?5Removing?5entry?0?5slot?3?5?$CFu?0@ 10002964     kitlcore:timer.obj
+ 0001:00001994       ??_C@_0BM@CKNAHOAO@?$CLCancelTimersForClient?$CI?$CFs?$CJ?6?$AA@ 10002994     kitlcore:timer.obj
+ 0001:000019b0       ??_C@_1CC@FONLHMJH@?$AAH?$AAa?$AAl?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAy?$AAs?$AAt?$AAe?$AAm?$AA?$AN?$AA?6?$AA?$AA@ 100029b0     oemstub:oemstub.obj
+ 0001:000019d4       ??_C@_1GO@MDILOBJC@?$AAC?$AA?3?$AA?2?$AAy?$AAm?$AAz?$AAk?$AAi?$AA?2?$AAp?$AAr?$AAi?$AAv?$AAa?$AAt?$AAe?$AA?2?$AAw?$AAi?$AAn?$AAc?$AAe?$AAo?$AAs?$AA?2?$AAC?$AAO?$AAR?$AAE?$AAO?$AAS?$AA?2@ 100029d4     oemstub:oemstub.obj
+ 0001:00001a44       ??_C@_1FM@EIKOCJDA@?$AA?$CB?$AA?$CB?$AA?5?$AAP?$AAr?$AAo?$AAf?$AAi?$AAl?$AAi?$AAn?$AAg?$AA?5?$AAi?$AAs?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAm?$AAp?$AAl?$AAe?$AAm?$AAe?$AAn?$AAt?$AAe?$AAd?$AA?5@ 10002a44     oemstub:oemstub.obj
+ 0001:00001aa0       ??_C@_1DA@CDAFDGML@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA1?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10002aa0     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001ad0       ??_C@_1EG@JMAHGIHP@?$AAI?$AAN?$AAF?$AAO?$AA?3?$AA?5?$AAP?$AAC?$AAI?$AA?5?$AAc?$AAo?$AAn?$AAf?$AAi?$AAg?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAc?$AAo?$AAm?$AAp?$AAl?$AAe?$AAt?$AAe@ 10002ad0     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001b18       ??_C@_1EA@EKBKBPKH@?$AAI?$AAN?$AAF?$AAO?$AA?3?$AA?5?$AAP?$AAC?$AAI?$AA?5?$AAc?$AAo?$AAn?$AAf?$AAi?$AAg?$AAu?$AAr?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAs?$AAt?$AAa?$AAr?$AAt?$AA?$AN?$AA?6?$AA?$AA@ 10002b18     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001b58       ??_C@_1IA@HBKNFIMP@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx@ 10002b58     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001bd8       ??_C@_1GI@NMPJOLPG@?$AA?9?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAB?$AAu?$AAs?$AA?$CI?$AAs?$AAu?$AAb?$AAB?$AAu?$AAs?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?0?$AA?5?$AAm?$AAe?$AAm?$AA?5?$AA?$DN@ 10002bd8     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001c40       ??_C@_1GM@HHBKNHON@?$AAI?$AAN?$AAF?$AAO?$AA?3?$AA?5?$AAB?$AAu?$AAs?$AA?5?$AA?$CF?$AAd?$AA?5?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?5?$AA?$CF?$AAd?$AA?3?$AA?5?$AAV?$AAe?$AAn?$AAd?$AAo?$AAr?$AAI?$AAd@ 10002c40     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001cac       ??_C@_1HA@IMKAPJPG@?$AA?$CL?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAB?$AAu?$AAs?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx@ 10002cac     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001d1c       ??_C@_1GM@EDBDABME@?$AA?9?$AAP?$AAC?$AAI?$AAS?$AAc?$AAa?$AAn?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$CI?$AAm?$AAe?$AAm?$AAB?$AAa?$AAs?$AAe?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8@ 10002d1c     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001d88       ??_C@_1HK@LMFBBPIM@?$AA?$CL?$AAP?$AAC?$AAI?$AAS?$AAc?$AAa?$AAn?$AAL?$AAo?$AAc?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF@ 10002d88     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001e04       ??_C@_1GM@POGKGJPM@?$AA?9?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$CI?$AAm?$AAe?$AAm?$AAB?$AAa?$AAs?$AAe?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8@ 10002e04     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001e70       ??_C@_1GI@HEDILPDD@?$AAI?$AAN?$AAF?$AAO?$AA?3?$AA?5?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?3?$AA?5?$AAM?$AAe?$AAm?$AA?5?$AAB?$AAA?$AAR?$AA?$FL?$AA?$CF@ 10002e70     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001ed8       ??_C@_1GO@ENKOGFDH@?$AAW?$AAA?$AAR?$AAN?$AAI?$AAN?$AAG?$AA?3?$AA?5?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?3?$AA?5?$AA6?$AA4?$AA?5?$AAb?$AAi?$AAt@ 10002ed8     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001f48       ??_C@_1GG@JIHPKAJL@?$AAI?$AAN?$AAF?$AAO?$AA?3?$AA?5?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?3?$AA?5?$AAI?$AAO?$AA?5?$AAB?$AAA?$AAR?$AA?$FL?$AA?$CF?$AAd@ 10002f48     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00001fb0       ??_C@_1GA@MHOBDJJH@?$AA?$CL?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?0?$AA?5?$AA0@ 10002fb0     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00002010       ??_C@_1GK@JFDBDMJF@?$AA?9?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAB?$AAr?$AAi?$AAd?$AAg?$AAe?$AA?$CI?$AAm?$AAe?$AAm?$AAB?$AAa?$AAs?$AAe?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8@ 10003010     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:0000207c       ??_C@_1JA@KNMBBCKL@?$AA?$CL?$AAP?$AAC?$AAI?$AAC?$AAo?$AAn?$AAf?$AAi?$AAg?$AAB?$AAr?$AAi?$AAd?$AAg?$AAe?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF@ 1000307c     oal_pci_vrc5477_ms_v1:config.obj
+ 0001:0000210c       ??_C@_1EE@PJKFNFB@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAd?$AA?$CI?$AAi?$AAd?$AA?5?$AA?$DN?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?$CJ?$AA?$AN@ 1000310c     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002150       ??_C@_1EG@FOGMMDKF@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAd?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?$CJ@ 10003150     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002198       ??_C@_1FC@DPGHJDLI@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAM?$AAB?$AAA?$AAR?$AA?$CI?$AAa?$AAd?$AAd?$AAr?$AAe?$AAs?$AAs?$AA?5?$AA?$DN?$AA?5?$AA0@ 10003198     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:000021ec       ??_C@_1FC@NCOHMGLL@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAM?$AAB?$AAA?$AAR?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF@ 100031ec     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002240       ??_C@_1FC@KFPMMNIB@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAP?$AAi?$AAn?$AA?$CI?$AAp?$AAi?$AAn@ 10003240     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002294       ??_C@_1GC@DFGHBFGL@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAn?$AAt?$AAe?$AAr?$AAr?$AAu?$AAp?$AAt?$AAP?$AAi?$AAn?$AA?$CI?$AA?$CF?$AAd?$AA?0@ 10003294     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:000022f8       ??_C@_1EI@IFJMDBCG@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AAT?$AAy?$AAp?$AAe?$AA?$CI?$AAt?$AAy?$AAp?$AAe?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AA0?$AA2?$AAx@ 100032f8     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002340       ??_C@_1FC@DMGEKDOE@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAH?$AAe?$AAa?$AAd?$AAe?$AAr?$AAT?$AAy?$AAp?$AAe?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF@ 10003340     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002394       ??_C@_1EA@EAJIBAKP@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAS?$AAu?$AAc?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AA?$CI?$AAn?$AAu?$AAm?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10003394     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:000023d4       ??_C@_1FA@BDFOPHMC@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAS?$AAu?$AAc?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd@ 100033d4     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002424       ??_C@_1EA@OPNMICOI@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAS?$AAu?$AAb?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AA?$CI?$AAn?$AAu?$AAm?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10003424     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002464       ??_C@_1FA@OMLOEBF@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAG?$AAe?$AAt?$AAS?$AAu?$AAb?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd@ 10003464     oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00002544       ??_C@_1DK@MNHNABCO@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAR?$AAe?$AAa?$AAd?$AA?$CI?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10003544     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00002580       ??_C@_1FK@CNBJLJNE@?$AAW?$AAA?$AAR?$AAN?$AA?3?$AA?5?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAR?$AAe?$AAa?$AAd?$AA?3?$AA?5?$AAU?$AAn?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe?$AAd@ 10003580     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:000025dc       ??_C@_1FO@LANDCBKA@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAR?$AAe?$AAa?$AAd?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?0@ 100035dc     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:0000263c       ??_C@_1DM@EPMIBKCC@?$AA?9?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?$CI?$AAc?$AAo?$AAu?$AAn?$AAt?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 1000363c     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00002678       ??_C@_1FM@EPMKIBLB@?$AAW?$AAA?$AAR?$AAN?$AA?3?$AA?5?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?3?$AA?5?$AAU?$AAn?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AAe@ 10003678     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:000026d4       ??_C@_1FO@NKAJPICI@?$AA?$CL?$AAO?$AAA?$AAL?$AAP?$AAC?$AAI?$AAC?$AAf?$AAg?$AAW?$AAr?$AAi?$AAt?$AAe?$AA?$CI?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?0?$AA?5?$AA?$CF?$AAd@ 100036d4     oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00002854       ??_C@_0BI@GBPEIAJI@?9OEMKitlInit?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10003854     oal_kitl_pci:kitl.obj
+ 0001:0000286c       ??_C@_0BH@DJPAMHLI@?$CLOEMKitlInit?$CI0x?$CF08x?$CJ?$AN?6?$AA@ 1000386c     oal_kitl_pci:kitl.obj
+ 0001:00002884       ??_C@_0BI@KCIPJAAG@?9OALKitlInit?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10003884     oal_kitl_pci:kitl.obj
+ 0001:0000289c       ??_C@_0CG@NCCHEHBN@ERROR?3?5OALKitlInit?3?5KitlInit?5fai@ 1000389c     oal_kitl_pci:kitl.obj
+ 0001:000028c4       ??_C@_0FG@GMOHKIKA@ERROR?3?5OALKitlInit?3?5No?5supported@ 100038c4     oal_kitl_pci:kitl.obj
+ 0001:0000291c       ??_C@_0CD@KFHIJAFP@WARN?3?5OALKitlInit?3?5KITL?5Disabled@ 1000391c     oal_kitl_pci:kitl.obj
+ 0001:00002940       ??_C@_0CB@ICNOHDED@pDevice?9?$DOpDriver?4?4?4?4?4?4?4?4?4?50x?$CFx?$AN?6@ 10003940     oal_kitl_pci:kitl.obj
+ 0001:00002964       ??_C@_0BP@LAJLJKFE@pDevice?9?$DOtype?4?4?4?4?4?4?4?4?4?4?4?4?5?$CFd?$AN?6?$AA@ 10003964     oal_kitl_pci:kitl.obj
+ 0001:00002984       ??_C@_0BP@OJPECLKF@pDevice?9?$DOresource?4?4?4?4?4?4?4?4?5?$CFd?$AN?6?$AA@ 10003984     oal_kitl_pci:kitl.obj
+ 0001:000029a4       ??_C@_0CB@JAOILBKH@pDevice?9?$DOid?4?4?4?4?4?4?4?4?4?4?4?4?4?4?50x?$CFx?$AN?6@ 100039a4     oal_kitl_pci:kitl.obj
+ 0001:000029c8       ??_C@_0BP@ELIKEIPK@pDevice?9?$DOifcType?4?4?4?4?4?4?4?4?4?5?$CFd?$AN?6?$AA@ 100039c8     oal_kitl_pci:kitl.obj
+ 0001:000029e8       ??_C@_0CA@MADPCADD@pDevice?9?$DOName?4?4?4?4?4?4?4?4?4?4?4?4?5?$CFhs?$AN?6?$AA@ 100039e8     oal_kitl_pci:kitl.obj
+ 0001:00002a08       ??_C@_0BP@GCIAPLEP@pArgs?9?$DOip4address?4?4?4?4?4?4?4?4?5?$CFs?$AN?6?$AA@ 10003a08     oal_kitl_pci:kitl.obj
+ 0001:00002a28       ??_C@_0BP@EDAFLEND@pArgs?9?$DOdevLoc?4Pin?4?4?4?4?4?4?4?4?5?$CFd?$AN?6?$AA@ 10003a28     oal_kitl_pci:kitl.obj
+ 0001:00002a48       ??_C@_0CB@ELNIEECP@pArgs?9?$DOdevLoc?4PhysicalLoc?50x?$CFx?$AN?6@ 10003a48     oal_kitl_pci:kitl.obj
+ 0001:00002a6c       ??_C@_0CB@OOHPGPEK@pArgs?9?$DOdevLoc?4LogicalLoc?4?50x?$CFx?$AN?6@ 10003a6c     oal_kitl_pci:kitl.obj
+ 0001:00002a90       ??_C@_0BP@CLIEPDAL@pArgs?9?$DOdevLoc?4IfcType?4?4?4?4?5?$CFd?$AN?6?$AA@ 10003a90     oal_kitl_pci:kitl.obj
+ 0001:00002ab0       ??_C@_0CB@LJCIEGGC@pArgs?9?$DOflags?4?4?4?4?4?4?4?4?4?4?4?4?4?50x?$CFx?$AN?6@ 10003ab0     oal_kitl_pci:kitl.obj
+ 0001:00002ad4       ??_C@_0BP@HJJCJHBD@DeviceId?4?4?4?4?4?4?4?4?4?4?4?4?4?4?4?4?4?5?$CFs?$AN?6?$AA@ 10003ad4     oal_kitl_pci:kitl.obj
+ 0001:00002af4       ??_C@_0DF@BBIFGKFF@?$CLOALKitlInit?$CI?8?$CFhs?8?0?50x?$CF08x?5?9?5?$CFd?1@ 10003af4     oal_kitl_pci:kitl.obj
+ 0001:00002b2c       ??_C@_0BD@GBONLPAN@?9OALKitlPowerOff?$AN?6?$AA@ 10003b2c     oal_kitl_pci:kitl.obj
+ 0001:00002b40       ??_C@_0BD@PMDBLEBO@?$CLOALKitlPowerOff?$AN?6?$AA@ 10003b40     oal_kitl_pci:kitl.obj
+ 0001:00002b54       ??_C@_0BC@KIOCKNCJ@?9OALKitlPowerOn?$AN?6?$AA@ 10003b54     oal_kitl_pci:kitl.obj
+ 0001:00002b68       ??_C@_0BC@KGJOBBKM@?$CLOALKitlPowerOn?$AN?6?$AA@ 10003b68     oal_kitl_pci:kitl.obj
+ 0001:00002c10       ??_C@_0BO@KPIGKMGK@?9OALKitlSerialInit?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10003c10     oal_kitl_pci:kitlserial.obj
+ 0001:00002c30       ??_C@_0CG@IJDAEBCE@WARN?3?5KITL?5will?5run?5in?5polling?5m@ 10003c30     oal_kitl_pci:kitlserial.obj
+ 0001:00002c58       ??_C@_0CN@MENCFIED@WARN?3?5KITL?5can?8t?5obtain?5SYSINTR?5@ 10003c58     oal_kitl_pci:kitlserial.obj
+ 0001:00002c88       ??_C@_0CO@BPFMIJNH@WARN?3?5KITL?5can?8t?5obtain?5IRQ?5for?5@ 10003c88     oal_kitl_pci:kitlserial.obj
+ 0001:00002cb8       ??_C@_0CF@GMMNDEHJ@ERROR?3?5KITL?5call?5to?5pfnInit?5fail@ 10003cb8     oal_kitl_pci:kitlserial.obj
+ 0001:00002ce0       ??_C@_0CE@LGCGCDLA@ERROR?3?5KITL?5device?5driver?5is?5NUL@ 10003ce0     oal_kitl_pci:kitlserial.obj
+ 0001:00002d04       ??_C@_0DB@NNJFABKG@?$CLOALKitlSerialInit?$CI?8?$CFS?8?0?5?8?$CFs?8?0?50@ 10003d04     oal_kitl_pci:kitlserial.obj
+ 0001:00002d38       ??_C@_0BG@PDHAIEPB@?9SerialSend?$CIrc?5?$DN?51?$CJ?$AN?6?$AA@ 10003d38     oal_kitl_pci:kitlserial.obj
+ 0001:00002d50       ??_C@_0BK@FJBKAKDG@?$CLSerialSend?$CI0x?$CF08x?0?5?$CFd?$CJ?$AN?6?$AA@ 10003d50     oal_kitl_pci:kitlserial.obj
+ 0001:00002d6c       ??_C@_0BN@FOGKPFOM@?9SerialRecv?$CI?$CKpLength?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10003d6c     oal_kitl_pci:kitlserial.obj
+ 0001:00002d8c       ??_C@_0DN@FPKOAPOO@ERROR?3?5SerialRecv?3?5Received?5pack@ 10003d8c     oal_kitl_pci:kitlserial.obj
+ 0001:00002dcc       ??_C@_0DI@FBKFFAPI@WARN?3?5SerialRecv?3?5Packet?5checksu@ 10003dcc     oal_kitl_pci:kitlserial.obj
+ 0001:00002e04       ??_C@_0FC@OLAMHMJA@WARN?3?5SerialRecv?3?5payload?5size?5e@ 10003e04     oal_kitl_pci:kitlserial.obj
+ 0001:00002e58       ??_C@_0FE@EPOLMELO@WARN?3?5SerialRecv?3?5Packet?5type?5wr@ 10003e58     oal_kitl_pci:kitlserial.obj
+ 0001:00002eac       ??_C@_0FH@COFDJCJM@WARN?3?5SerialRecv?3?5Header?5checksu@ 10003eac     oal_kitl_pci:kitlserial.obj
+ 0001:00002f04       ??_C@_0BK@PNMBDCIB@?$CLSerialRecv?$CI0x?$CF08x?0?5?$CFd?$CJ?$AN?6?$AA@ 10003f04     oal_kitl_pci:kitlserial.obj
+ 0001:00002fb0       ??_C@_0CJ@OFEHEAMD@KITL?3?5Connected?5host?5?5IP?3?5?$CFs?5?5Po@ 10003fb0     oal_kitl_pci:kitleth.obj
+ 0001:00002fdc       ??_C@_0CB@GFLGAKPJ@KITL?3?5Start?5DHCP?5RENEW?5process?$AN?6@ 10003fdc     oal_kitl_pci:kitleth.obj
+ 0001:00003000       ??_C@_0BM@FALEIOIG@?9OALIoCtlVBridge?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10004000     oal_kitl_pci:kitleth.obj
+ 0001:0000301c       ??_C@_0BP@BIAFCCDM@?$CLOALIoCtlVBridge?$CI0x?$CF08x?0?4?4?4?$CJ?$AN?6?$AA@ 1000401c     oal_kitl_pci:kitleth.obj
+ 0001:0000303c       ??_C@_0BL@OCIIDPCB@?9OALKitlEthInit?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 1000403c     oal_kitl_pci:kitleth.obj
+ 0001:00003058       ??_C@_0BL@EIDMIDBA@KITL?3?5using?5sysintr?50x?$CFx?$AN?6?$AA@ 10004058     oal_kitl_pci:kitleth.obj
+ 0001:00003074       ??_C@_0BP@ILGKAKAA@KITL?3?5?$CK?$CK?$CK?5Device?5Name?5?$CFs?5?$CK?$CK?$CK?$AN?6?$AA@ 10004074     oal_kitl_pci:kitleth.obj
+ 0001:00003094       ??_C@_0CO@PDOCGCJP@ERROR?3?5KITL?5call?5to?5pfnInitDmaBu@ 10004094     oal_kitl_pci:kitleth.obj
+ 0001:000030c4       ??_C@_0CO@HIMCOMKP@?$CLOALKitlEthInit?$CI?8?$CFS?8?0?5?8?$CFs?8?0?50x?$CF0@ 100040c4     oal_kitl_pci:kitleth.obj
+ 0001:000030f4       ??_C@_0CF@CNPGAGEH@KITL?3?5DHCP?5get?1renew?5device?5IP?3?5@ 100040f4     oal_kitl_pci:kitleth.obj
+ 0001:0000311c       ??_C@_0CO@LIMJACDF@?9KitlEthDecode?$CIpData?5?$DN?50x?$CF08x?0?5l@ 1000411c     oal_kitl_pci:kitleth.obj
+ 0001:0000314c       ??_C@_0CF@DCHGBGAP@?$CLKitlEthDecode?$CI0x?$CF08x?0?50x?$CF08x?9?$DO?$CF@ 1000414c     oal_kitl_pci:kitleth.obj
+ 0001:00003174       ??_C@_0BJ@BAFHPAIJ@?9KitlEthEncode?$CIrc?5?$DN?51?$CJ?$AN?6?$AA@ 10004174     oal_kitl_pci:kitleth.obj
+ 0001:00003190       ??_C@_0BL@NHDADPAH@?$CLKitlEthEncode?$CI?$CF08x?0?5?$CFd?$CJ?$AN?6?$AA@ 10004190     oal_kitl_pci:kitleth.obj
+ 0001:000031ac       ??_C@_0BN@OHPDCAJH@?9KitlEthGetDevCfg?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 100041ac     oal_kitl_pci:kitleth.obj
+ 0001:000031cc       ??_C@_0CI@LLEHHLED@?$CLKitlEthGetDevCfg?$CI0x?$CF08x?0?50x?$CF08x@ 100041cc     oal_kitl_pci:kitleth.obj
+ 0001:000031f4       ??_C@_0BI@DJIGCCGG@?9KitlEthSend?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 100041f4     oal_kitl_pci:kitleth.obj
+ 0001:0000320c       ??_C@_0CA@ELPHLPBP@?$CBDriver?5Send?5failure?0?5retry?5?$CFu?6?$AA@ 1000420c     oal_kitl_pci:kitleth.obj
+ 0001:0000322c       ??_C@_0BL@MJDALEMH@?$CLKitlEthSend?$CI0x?$CF08x?0?5?$CFd?$CJ?$AN?6?$AA@ 1000422c     oal_kitl_pci:kitleth.obj
+ 0001:00003248       ??_C@_0BI@PEEPNADN@?9KitlEthRecv?$CIrc?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 10004248     oal_kitl_pci:kitleth.obj
+ 0001:00003260       ??_C@_0CD@HNBDALDE@?$CLKitlEthRecv?$CI0x?$CF08x?0?50x?$CF08x?9?$DO?$CFd?$CJ@ 10004260     oal_kitl_pci:kitleth.obj
+ 0001:00003284       ??_C@_0BE@NDAHGBJL@?9KitlEthEnableInt?$AN?6?$AA@ 10004284     oal_kitl_pci:kitleth.obj
+ 0001:00003298       ??_C@_0BI@OLDCGLHD@?$CLKitlEthEnableInt?$CI?$CFd?$CJ?$AN?6?$AA@ 10004298     oal_kitl_pci:kitleth.obj
+ 0001:00003340       ??_C@_0EB@BGCKLDE@?9OALKitlFindDevice?$CIpDevice?5?$DN?50x?$CF@ 10004340     oal_kitl_pci:device.obj
+ 0001:00003384       ??_C@_11LOCGONAA@?$AA?$AA@ 10004384     oal_kitl_pci:device.obj
+ 0001:00003388       ??_C@_0CJ@GPDFFIKB@?$CLOALKitlFindDevice?$CI?$CFd?1?$CFd?1?$CF08x?0?50@ 10004388     oal_kitl_pci:device.obj
+ 0001:000033b4       ??_C@_0CJ@MPHJDLPH@?9OALKitlDeviceName?$CIname?5?$DN?50x?$CF08x@ 100043b4     oal_kitl_pci:device.obj
+ 0001:000033e0       ??_C@_1EA@MHLKLHLH@?$AA?$CF?$AAs?$AA?5?$AA?$EA?$AA?5?$AAi?$AAd?$AA?5?$AA?$CF?$AAd?$AA?5?$AAb?$AAu?$AAs?$AA?5?$AA?$CF?$AAd?$AA?5?$AAd?$AAe?$AAv?$AA?5?$AA?$CF?$AAd?$AA?5?$AAf?$AAn?$AAc?$AA?5?$AA?$CF?$AAd?$AA?$AA@ 100043e0     oal_kitl_pci:device.obj
+ 0001:00003420       ??_C@_0CJ@OKPKABKG@?$CLOALKitlDeviceName?$CI?$CFd?1?$CFd?1?$CF08x?0?50@ 10004420     oal_kitl_pci:device.obj
+ 0001:0000344c       ??_C@_0CA@ECNOOFDD@?9OALKitlDeviceType?$CItype?5?$DN?5?$CFd?$CJ?$AN?6?$AA@ 1000444c     oal_kitl_pci:device.obj
+ 0001:0000346c       ??_C@_0CJ@HOEFFCBD@?$CLOALKitlDeviceType?$CI?$CFd?1?$CFd?1?$CF08x?0?50@ 1000446c     oal_kitl_pci:device.obj
+ 0001:00003528       ??_C@_1BI@FCMLLAGN@?$AA?$CF?$AAd?$AA?4?$AA?$CF?$AAd?$AA?4?$AA?$CF?$AAd?$AA?4?$AA?$CF?$AAd?$AA?$AA@ 10004528     oal_kitl_pci:format.obj
+ 0001:00003540       ??_C@_1DM@BKFFFBIH@?$AA?$CF?$AA0?$AA2?$AAx?$AA?3?$AA?$CF?$AA0?$AA2?$AAx?$AA?3?$AA?$CF?$AA0?$AA2?$AAx?$AA?3?$AA?$CF?$AA0?$AA2?$AAx?$AA?3?$AA?$CF?$AA0?$AA2?$AAx?$AA?3?$AA?$CF?$AA0?$AA2?$AAx?$AA?$AA@ 10004540     oal_kitl_pci:format.obj
+ 0001:0000360c       ??_C@_0BC@EPFFAFOO@?9?5RegisterKITL?5?$AN?6?$AA@ 1000460c     oal_kitl_pci:registry.obj
+ 0001:00003620       ??_C@_1EE@PDFCDEEO@?$AAD?$AAr?$AAi?$AAv?$AAe?$AAr?$AAs?$AA?2?$AAB?$AAu?$AAi?$AAl?$AAt?$AAI?$AAn?$AA?2?$AAP?$AAC?$AAI?$AA?2?$AAI?$AAn?$AAs?$AAt?$AAa?$AAn?$AAc?$AAe?$AA?2?$AAK?$AAI?$AAT@ 10004620     oal_kitl_pci:registry.obj
+ 0001:00003664       ??_C@_0BC@EBCJLJGL@?$CL?5RegisterKITL?5?$AN?6?$AA@ 10004664     oal_kitl_pci:registry.obj
+ 0001:00003678       ??_C@_0BH@GBJLCFLG@?9OALKitlInitRegistry?$AN?6?$AA@ 10004678     oal_kitl_pci:registry.obj
+ 0001:00003690       ??_C@_0BH@IMFBFHMM@?$CLOALKitlInitRegistry?$AN?6?$AA@ 10004690     oal_kitl_pci:registry.obj
+ 0001:00003738       ??_C@_0CG@IHIMJOIA@?9OALKitlCreateName?$CIpBuffer?5?$DN?5?8?$CFh@ 10004738     oal_kitl_pci:name.obj
+ 0001:00003760       ??_C@_0CM@BCMDHFLI@?$CLOALKitlCreateName?$CI?8?$CFhs?8?0?50x?$CF04x@ 10004760     oal_kitl_pci:name.obj
+ 0001:0000378c       ??_C@_1EC@BJGONOOH@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6@ 1000478c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000037d0       ??_C@_1GA@CMDEMLIC@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?3?$AA?5?$AAB?$AAu?$AAf@ 100047d0     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003830       ??_C@_1FA@FLCJJDFI@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx@ 10004830     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003880       ??_C@_1DA@OOAHMHIE@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004880     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000038b0       ??_C@_1CC@FCPIDOII@?$AA?5?$AAL?$AAi?$AAn?$AAk?$AA?5?$AAd?$AAe?$AAt?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 100048b0     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000038d4       ??_C@_1DE@LFOPKDIL@?$AA?5?$AAW?$AAa?$AAi?$AAt?$AA?5?$AAt?$AAi?$AAm?$AAo?$AAu?$AAt?$AAe?$AAd?$AA?0?$AA?5?$AAe?$AAx?$AAi?$AAt?$AAi?$AAn?$AAg?$AA?$AN?$AA?6?$AA?$AA@ 100048d4     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003908       ??_C@_1DE@HMNGGEAC@?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AA?3?$AA?5?$AAW?$AAa?$AAi?$AAt?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAl?$AAi?$AAn?$AAk?$AA?4?$AA?4?$AA?4?$AA?$AA@ 10004908     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:0000393c       ??_C@_1EO@KKKDLKNL@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF@ 1000493c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:0000398c       ??_C@_1DI@FILLIPNJ@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA0?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 1000498c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000039c4       ??_C@_1FA@KMKHFMCO@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?3?$AA?5?$AAS?$AAe?$AAn?$AAd?$AA?5?$AAt?$AAi@ 100049c4     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003a14       ??_C@_1EA@KFFKGBLI@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004a14     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003a54       ??_C@_1EA@DBJIJBID@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAG?$AAe?$AAt?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004a54     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003a94       ??_C@_1DO@FPLEEJKI@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAG?$AAe?$AAt?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004a94     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003ad4       ??_C@_1CK@GOECEGOM@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10004ad4     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003b00       ??_C@_1CK@BODFFAAK@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10004b00     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003b2c       ??_C@_1CM@BNPEMKPD@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10004b2c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003b58       ??_C@_1CM@OBAEFLLP@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10004b58     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003b84       ??_C@_1DM@BFKGBADG@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 10004b84     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003bc0       ??_C@_1EM@NOGKDJNC@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0@ 10004bc0     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003c0c       ??_C@_1EA@ELJONDNB@?$AA?9?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAM?$AAu?$AAl?$AAt?$AAi?$AAc?$AAa?$AAs?$AAt?$AAL?$AAi?$AAs?$AAt?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA1?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004c0c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003c4c       ??_C@_1EI@MLDMDCPO@?$AA?$CL?$AAR?$AAT?$AAL?$AA8?$AA1?$AA3?$AA9?$AAM?$AAu?$AAl?$AAt?$AAi?$AAc?$AAa?$AAs?$AAt?$AAL?$AAi?$AAs?$AAt?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF?$AAd@ 10004c4c     oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00003d24       ??_C@_1EE@IINMMICI@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN@ 10004d24     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003d68       ??_C@_1GC@MMJNNGBB@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?3?$AA?5?$AAB?$AAu@ 10004d68     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003dcc       ??_C@_1FC@MJNPLCHG@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAI?$AAn?$AAi?$AAt?$AAD?$AAM?$AAA?$AAB?$AAu?$AAf?$AAf?$AAe?$AAr?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0@ 10004dcc     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003e20       ??_C@_1DC@BMNNHAKF@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004e20     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003e54       ??_C@_1FA@LBLFNACI@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAI?$AAn?$AAi?$AAt?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA0?$AAx@ 10004e54     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003ea4       ??_C@_1DG@OCDGALGD@?$AAA?$AAm?$AA7?$AA9?$AAc?$AA9?$AA7?$AA3?$AA?3?$AA?5?$AAW?$AAa?$AAi?$AAt?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAl?$AAi?$AAn?$AAk?$AA?4?$AA?4?$AA?4?$AA?$AA@ 10004ea4     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003edc       ??_C@_1DM@MBGHOHIF@?$AA?9?$AAR?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA0?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10004edc     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003f18       ??_C@_1FC@KFFOOLAP@?$AAE?$AAR?$AAR?$AAO?$AAR?$AA?3?$AA?5?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?3?$AA?5?$AAS?$AAe?$AAn?$AAd?$AA?5?$AAt@ 10004f18     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003f6c       ??_C@_1EC@PCPJMOOH@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAS?$AAe?$AAn?$AAd?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6@ 10004f6c     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003fb0       ??_C@_1EC@JNGDDHCD@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAG?$AAe?$AAt?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AAl?$AAe?$AAn?$AAg?$AAt?$AAh?$AA?5?$AA?$DN?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6@ 10004fb0     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00003ff4       ??_C@_1DK@DJBOIHGF@?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAG?$AAe?$AAt?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAX?$AA?1?$AA?$CF?$AAX?$AA?5?$AA?$CF?$AAd?$AA?6?$AA?$AA@ 10004ff4     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00004030       ??_C@_1EA@CEHNLBBI@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAG?$AAe?$AAt?$AAF?$AAr?$AAa?$AAm?$AAe?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 10005030     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00004070       ??_C@_1CM@OMHGDEHD@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 10005070     oal_ethdrv_am79c973:am79c973.obj
+ 0001:0000409c       ??_C@_1CM@BAIGKFDP@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAE?$AAn?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 1000509c     oal_ethdrv_am79c973:am79c973.obj
+ 0001:000040c8       ??_C@_1CO@FFCGMOAC@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 100050c8     oal_ethdrv_am79c973:am79c973.obj
+ 0001:000040f8       ??_C@_1CO@IOOCJBCJ@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAD?$AAi?$AAs?$AAa?$AAb?$AAl?$AAe?$AAI?$AAn?$AAt?$AAs?$AA?$AN?$AA?6?$AA?$AA@ 100050f8     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00004128       ??_C@_1DO@BALBBIDN@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 10005128     oal_ethdrv_am79c973:am79c973.obj
+ 0001:00004168       ??_C@_1EO@KGFMCPEM@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAC?$AAu?$AAr?$AAr?$AAe?$AAn?$AAt?$AAP?$AAa?$AAc?$AAk?$AAe?$AAt?$AAF?$AAi?$AAl?$AAt?$AAe?$AAr?$AA?$CI?$AA0?$AAx?$AA?$CF@ 10005168     oal_ethdrv_am79c973:am79c973.obj
+ 0001:000041b8       ??_C@_1EC@OHGFHFHB@?$AA?9?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAM?$AAu?$AAl?$AAt?$AAi?$AAc?$AAa?$AAs?$AAt?$AAL?$AAi?$AAs?$AAt?$AA?$CI?$AAr?$AAc?$AA?5?$AA?$DN?$AA?5?$AA1?$AA?$CJ?$AA?$AN?$AA?6@ 100051b8     oal_ethdrv_am79c973:am79c973.obj
+ 0001:000041fc       ??_C@_1EK@ODGCAAII@?$AA?$CL?$AAA?$AAM?$AA7?$AA9?$AAC?$AA9?$AA7?$AA3?$AAM?$AAu?$AAl?$AAt?$AAi?$AAc?$AAa?$AAs?$AAt?$AAL?$AAi?$AAs?$AAt?$AA?$CI?$AA0?$AAx?$AA?$CF?$AA0?$AA8?$AAx?$AA?0?$AA?5?$AA?$CF@ 100051fc     oal_ethdrv_am79c973:am79c973.obj
+ 0001:000042d8       ??_C@_03IGDBGCKF@?$CFx?5?$AA@ 100052d8     vbridge:vbridge.obj
+ 0001:000042dc       ??_C@_01GBGANLPD@0?$AA@    100052dc     vbridge:vbridge.obj
+ 0001:000042e0       ??_C@_04FMMHFHOO@?$AN?6?$AN?6?$AA@ 100052e0     vbridge:vbridge.obj
+ 0001:000042e8       ??_C@_08CNLJFGND@?$AN?60x?$CFx?3?5?$AA@ 100052e8     vbridge:vbridge.obj
+ 0001:000042f4       ??_C@_06DGFDGGJM@0x?$CFx?3?5?$AA@ 100052f4     vbridge:vbridge.obj
+ 0001:000042fc       ??_C@_0CB@CALJDEOO@?$CL?9?9?9?9?5MEM?5DUMP?5?$CI?$CFd?5bytes?$CJ?9?9?9?9?$CL?$AN?6@ 100052fc     vbridge:vbridge.obj
+ 0001:00004320       ??_C@_0EH@OHHLEIM@VBridge?3?5Error?$CB?5ProduceBufferDon@ 10005320     vbridge:vbridge.obj
+ 0001:00004368       ??_C@_0ED@LALCLDGC@VBridge?3?5Error?$CB?5ConsumeBuffer?$CI?$CJ?5@ 10005368     vbridge:vbridge.obj
+ 0001:000043ac       ??_C@_0EH@PDMAJMNN@VBridge?3?5Error?$CB?5ConsumeBufferDon@ 100053ac     vbridge:vbridge.obj
+ 0001:000043f4       ??_C@_0GA@BIIJJCHI@VBridge?3?5Error?$CB?5ConsumeBufferDon@ 100053f4     vbridge:vbridge.obj
+ 0001:00004454       ??_C@_0BO@DMIECOA@Rx?5buffer?5?$FL0x?$CFx?$FN?5to?5?$FL0x?$CFx?$FN?4?$AN?6?$AA@ 10005454     vbridge:vbridge.obj
+ 0001:00004474       ??_C@_0BO@IKIKAINA@Tx?5buffer?5?$FL0x?$CFx?$FN?5to?5?$FL0x?$CFx?$FN?4?$AN?6?$AA@ 10005474     vbridge:vbridge.obj
+ 0001:00004494       ??_C@_0DF@FKGFCLPJ@VBridgeInit?$CI?$CJ?4?4?4TX?5?$DN?5?$FL?$CFd?$FN?5bytes?5@ 10005494     vbridge:vbridge.obj
+ 0001:000044cc       ??_C@_0CE@JNBGKBJC@VBridge?3?3?5built?5on?5?$FL?$CFs?$FN?5time?5?$FL?$CFs@ 100054cc     vbridge:vbridge.obj
+ 0001:000044f0       ??_C@_0M@CJCABMIH@Sep?5?56?52006?$AA@ 100054f0     vbridge:vbridge.obj
+ 0001:000044fc       ??_C@_08GKCKDCJI@19?322?313?$AA@ 100054fc     vbridge:vbridge.obj
+ 0001:00004508       ??_C@_0CO@ILLJABOE@VBridgeKGetOneTxBuffer?$CI?$CJ?5Err?$CB?5?$FL0@ 10005508     vbridge:vbridge.obj
+ 0001:00004538       ??_C@_0DE@LOPBMMHM@VBridgeKGetOneTxBufferComplete?$CI?$CJ@ 10005538     vbridge:vbridge.obj
+ 0001:0000456c       ??_C@_0DI@HEJDFJBF@?$CK?$CK?5WARNING?$CB?$CB?$CB?5?$CK?$CK?5Device?5MAC?5addr@ 1000556c     vbridge:vbridge.obj
+ 0001:000045a4       ??_C@_0DJ@LKNKOIHJ@VBridgeKIndicateOneRxBuffer?$CI?$CJ?5Er@ 100055a4     vbridge:vbridge.obj
+ 0001:000045e0       ??_C@_0CM@PJABNFGI@VBridge?3?3?5NK?5add?5MAC?3?5?$FL?$CFx?9?$CFx?9?$CFx?9@ 100055e0     vbridge:vbridge.obj
+ 0001:0000460c       ??_C@_0DJ@JPHIEPAD@VBridgeKSetLocalMacAddress?$CI?$CJ?5Err@ 1000560c     vbridge:vbridge.obj
+ 0001:00004648       ??_C@_0DA@BNPLKEKM@VBridgeUGetOneTxPacket?$CI?$CJ?5Err?$CB?$CB?5?$FL@ 10005648     vbridge:vbridge.obj
+ 0001:00004678       ??_C@_0DI@MDDGKNHB@VBridgeUGetOneTxPacketComplete?$CI?$CJ@ 10005678     vbridge:vbridge.obj
+ 0001:000046b0       ??_C@_0DA@MGPGECBI@VBridgeUGetOneRxPacket?$CI?$CJ?5Err?$CB?$CB?5?$FL@ 100056b0     vbridge:vbridge.obj
+ 0001:000046e0       ??_C@_0DA@KIINIKAM@VBridgeUGetOneRxPacketComplete?$CI?$CJ@ 100056e0     vbridge:vbridge.obj
+ 0001:00004710       ??_C@_0CI@BDPMFOMO@VBridge?3?3?5VB_INITIALIZED?5returns@ 10005710     vbridge:vbridge.obj
+ 0001:00004738       ??_C@_0CD@KPODIJAL@VBridge?3?3?5RESET_BUFFER?5received?4@ 10005738     vbridge:vbridge.obj
+ 0001:0000475c       ??_C@_0DB@IMBKLANK@VBridgeUGetEDBGMac?$CI?$CJ?0?5ERR?$CB?5NULL?5@ 1000575c     vbridge:vbridge.obj
+ 0001:00004790       ??_C@_0DB@BMKDFNPB@VBridge?3?3?5Current?5VMini?5packet?5f@ 10005790     vbridge:vbridge.obj
+ 0001:000047c4       ??_C@_0DG@MKNLPBLF@VBridgeUCurrentPacketFilter?$CI?$CJ?0?5E@ 100057c4     vbridge:vbridge.obj
+ 0001:000047fc       ??_C@_1BA@BDHDGOBO@?$AAS?$AAy?$AAs?$AAI?$AAn?$AAt?$AAr?$AA?$AA@ 100057fc     pcireg:PCIreg.obj
+ 0001:0000480c       ??_C@_17DJGGJCGD@?$AAI?$AAr?$AAq?$AA?$AA@ 1000580c     pcireg:PCIreg.obj
+ 0001:00004814       ??_C@_1M@PEPOCCHH@?$AAI?$AAo?$AAL?$AAe?$AAn?$AA?$AA@ 10005814     pcireg:PCIreg.obj
+ 0001:00004820       ??_C@_1O@JMCNHCBG@?$AAI?$AAo?$AAB?$AAa?$AAs?$AAe?$AA?$AA@ 10005820     pcireg:PCIreg.obj
+ 0001:00004830       ??_C@_1O@LBBNFMDB@?$AAM?$AAe?$AAm?$AAL?$AAe?$AAn?$AA?$AA@ 10005830     pcireg:PCIreg.obj
+ 0001:00004840       ??_C@_1BA@INLDIDEN@?$AAM?$AAe?$AAm?$AAB?$AAa?$AAs?$AAe?$AA?$AA@ 10005840     pcireg:PCIreg.obj
+ 0001:00004850       ??_C@_1BO@PJDCCDMH@?$AAF?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10005850     pcireg:PCIreg.obj
+ 0001:00004870       ??_C@_1BK@JHFNDMGF@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 10005870     pcireg:PCIreg.obj
+ 0001:0000488c       ??_C@_1BE@MNDDMKMB@?$AAB?$AAu?$AAs?$AAN?$AAu?$AAm?$AAb?$AAe?$AAr?$AA?$AA@ 1000588c     pcireg:PCIreg.obj
+ 0001:000048a0       ??_C@_1BM@MHMIAMLB@?$AAI?$AAn?$AAt?$AAe?$AAr?$AAf?$AAa?$AAc?$AAe?$AAT?$AAy?$AAp?$AAe?$AA?$AA@ 100058a0     pcireg:PCIreg.obj
+ 0001:000048bc       ??_C@_1BI@JFAEBNDD@?$AAS?$AAu?$AAb?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AAI?$AAD?$AA?$AA@ 100058bc     pcireg:PCIreg.obj
+ 0001:000048d4       ??_C@_1BI@FPBCIDAH@?$AAS?$AAu?$AAb?$AAV?$AAe?$AAn?$AAd?$AAo?$AAr?$AAI?$AAD?$AA?$AA@ 100058d4     pcireg:PCIreg.obj
+ 0001:000048ec       ??_C@_1BG@MHMGNMDC@?$AAR?$AAe?$AAv?$AAi?$AAs?$AAi?$AAo?$AAn?$AAI?$AAD?$AA?$AA@ 100058ec     pcireg:PCIreg.obj
+ 0001:00004904       ??_C@_1BC@FDHFOMEN@?$AAD?$AAe?$AAv?$AAi?$AAc?$AAe?$AAI?$AAD?$AA?$AA@ 10005904     pcireg:PCIreg.obj
+ 0001:00004918       ??_C@_1BC@NPAECANO@?$AAV?$AAe?$AAn?$AAd?$AAo?$AAr?$AAI?$AAD?$AA?$AA@ 10005918     pcireg:PCIreg.obj
+ 0001:0000492c       ??_C@_1O@KNNEPINE@?$AAP?$AAr?$AAo?$AAg?$AAI?$AAF?$AA?$AA@ 1000592c     pcireg:PCIreg.obj
+ 0001:0000493c       ??_C@_1BC@EKJLLFOF@?$AAS?$AAu?$AAb?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 1000593c     pcireg:PCIreg.obj
+ 0001:00004950       ??_C@_1M@OAHBGIFG@?$AAC?$AAl?$AAa?$AAs?$AAs?$AA?$AA@ 10005950     pcireg:PCIreg.obj
+ 0001:0000495c       ??_C@_1M@OAJFFPML@?$AAF?$AAl?$AAa?$AAg?$AAs?$AA?$AA@ 1000595c     pcireg:PCIreg.obj
+ 0001:00004968       ??_C@_1EI@GKJHLKDL@?$AAP?$AAC?$AAI?$AAR?$AAe?$AAg?$AA?$CI?$AAk?$AAe?$AAy?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?0?$AA?5?$AAd?$AAe?$AAv?$AAi?$AAc?$AAe?$AA?3?$AA?5?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd?$AA?1?$AA?$CF?$AAd@ 10005968     pcireg:PCIreg.obj
+ 0001:00004a64       OALArgsQuery               10005a64 f   args.obj
+ 0001:00004bbc       OEMKitlStartup             10005bbc f   kitl.obj
+ 0001:00004e04       OALStall                   10005e04 f   kitl.obj
+ 0001:00004ec4       OALGetTickCount            10005ec4 f   kitl.obj
+ 0001:00004f5c       VRC5477Uart1Init           10005f5c f   uart.obj
+ 0001:00005164       VRC5477Uart1Send           10006164 f   uart.obj
+ 0001:000051f8       VRC5477Uart1Recv           100061f8 f   uart.obj
+ 0001:000052e8       VRC5477Uart1EnableInts     100062e8 f   uart.obj
+ 0001:000052f0       VRC5477Uart1DisableInts    100062f0 f   uart.obj
+ 0001:000052f8       OALTimerGetCount           100062f8 f   count.obj
+ 0001:00005300       KITLSetDebug               10006300 f   kitlcore:ethdbg.obj
+ 0001:00005340       IsDesktopDbgrExist         10006340 f   kitlcore:ethdbg.obj
+ 0001:00005368       ChkDfltSvc                 10006368 f   kitlcore:ethdbg.obj
+ 0001:000053fc       KITLRegisterDfltClient     100063fc f   kitlcore:ethdbg.obj
+ 0001:00005700       KITLRegisterClient         10006700 f   kitlcore:ethdbg.obj
+ 0001:0000635c       KITLDeregisterClient       1000735c f   kitlcore:ethdbg.obj
+ 0001:00006770       KITLInitializeInterrupt    10007770 f   kitlcore:ethdbg.obj
+ 0001:00006a10       KITLWriteDebugString       10007a10 f   kitlcore:ethdbg.obj
+ 0001:00007018       ExtKITLIoctl               10008018 f   kitlcore:ethdbg.obj
+ 0001:00007650       KITLIoctl                  10008650 f   kitlcore:ethdbg.obj
+ 0001:00007aa0       KitlInit                   10008aa0 f   kitlcore:ethdbg.obj
+ 0001:00007f78       KitlDllMain                10008f78 f   kitlcore:ethdbg.obj
+ 0001:00008080       GetObjPtr                  10009080 f i kitlcore:ethdbg.obj
+ 0001:000080c4       IsValidUsrPtr              100090c4 f i kitlcore:ethdbg.obj
+ 0001:00008160       KITLOutputDebugString      10009160 f   kitlcore:debug.obj
+ 0001:00008bec       inet_ntoa                  10009bec f   kitlcore:debug.obj
+ 0001:00008d04       inet_addr                  10009d04 f   kitlcore:debug.obj
+ 0001:00008e14       DoDebugBreak               10009e14 f   kitlcore:edbgprot.obj
+ 0001:00008e20       ResetClientState           10009e20 f   kitlcore:edbgprot.obj
+ 0001:00008f14       ExchangeConfig             10009f14 f   kitlcore:edbgprot.obj
+ 0001:0000922c       SendConfig                 1000a22c f   kitlcore:edbgprot.obj
+ 0001:00009470       KITLPollResponse           1000a470 f   kitlcore:edbgprot.obj
+ 0001:00009758       KITLSend                   1000a758 f   kitlcore:edbgprot.obj
+ 0001:0000a73c       RetransmitFrame            1000b73c f   kitlcore:edbgprot.obj
+ 0001:0000aa80       KITLRecv                   1000ba80 f   kitlcore:edbgprot.obj
+ 0001:0000b624       HandleRecvInterrupt        1000c624 f   kitlcore:edbgprot.obj
+ 0001:0000d5a0       KitlSendRawData            1000e5a0 f   kitlcore:edbgprot.obj
+ 0001:0000d6ac       KitlSendFrame              1000e6ac f   kitlcore:edbgprot.obj
+ 0001:0000d754       DumpTimerList              1000e754 f   kitlcore:timer.obj
+ 0001:0000d7c0       InitTimerList              1000e7c0 f   kitlcore:timer.obj
+ 0001:0000d870       FreeTimerEntry             1000e870 f   kitlcore:timer.obj
+ 0001:0000d9b8       TimerCallback              1000e9b8 f   kitlcore:timer.obj
+ 0001:0000dbe0       TimerThread                1000ebe0 f   kitlcore:timer.obj
+ 0001:0000e138       TimerStart                 1000f138 f   kitlcore:timer.obj
+ 0001:0000e340       TimerStop                  1000f340 f   kitlcore:timer.obj
+ 0001:0000e59c       CancelTimersForClient      1000f59c f   kitlcore:timer.obj
+ 0001:0000e678       KitlSetTimerCallback       1000f678 f   kitlcore:timer.obj
+ 0001:0000e784       KitlStopTimerCallback      1000f784 f   kitlcore:timer.obj
+ 0001:0000e828       NKOutputDebugString        1000f828 f   nkstub:nkstub.obj
+ 0001:0000e85c       NKvDbgPrintfW              1000f85c f   nkstub:nkstub.obj
+ 0001:0000e898       NKDbgPrintfW               1000f898 f   nkstub:nkstub.obj
+ 0001:0000e8ec       NKwvsprintfW               1000f8ec f   nkstub:nkstub.obj
+ 0001:0000e944       NKSetLastError             1000f944 f   nkstub:nkstub.obj
+ 0001:0000e978       NKGetLastError             1000f978 f   nkstub:nkstub.obj
+ 0001:0000e9b0       EnterCriticalSection       1000f9b0 f   nkstub:nkstub.obj
+ 0001:0000e9e4       LeaveCriticalSection       1000f9e4 f   nkstub:nkstub.obj
+ 0001:0000ea18       InitializeCriticalSection  1000fa18 f   nkstub:nkstub.obj
+ 0001:0000ea4c       DeleteCriticalSection      1000fa4c f   nkstub:nkstub.obj
+ 0001:0000ea80       INTERRUPTS_OFF             1000fa80 f   nkstub:nkstub.obj
+ 0001:0000eaac       INTERRUPTS_ON              1000faac f   nkstub:nkstub.obj
+ 0001:0000ead8       INTERRUPTS_ENABLE          1000fad8 f   nkstub:nkstub.obj
+ 0001:0000eb18       HookInterrupt              1000fb18 f   nkstub:nkstub.obj
+ 0001:0000eb60       UnhookInterrupt            1000fb60 f   nkstub:nkstub.obj
+ 0001:0000eba8       NKCallIntChain             1000fba8 f   nkstub:nkstub.obj
+ 0001:0000ebe8       NKIsSysIntrValid           1000fbe8 f   nkstub:nkstub.obj
+ 0001:0000ec28       NKSetInterruptEvent        1000fc28 f   nkstub:nkstub.obj
+ 0001:0000ec68       NKSleep                    1000fc68 f   nkstub:nkstub.obj
+ 0001:0000ec9c       NKVirtualSetAttributes     1000fc9c f   nkstub:nkstub.obj
+ 0001:0000ecfc       NKCreateStaticMapping      1000fcfc f   nkstub:nkstub.obj
+ 0001:0000ed44       NKDeleteStaticMapping      1000fd44 f   nkstub:nkstub.obj
+ 0001:0000ed8c       NKRegCloseKey              1000fd8c f   nkstub:nkstub.obj
+ 0001:0000edcc       NKRegFlushKey              1000fdcc f   nkstub:nkstub.obj
+ 0001:0000ee0c       NKRegCreateKeyExW          1000fe0c f   nkstub:nkstub.obj
+ 0001:0000ee8c       NKRegOpenKeyExW            1000fe8c f   nkstub:nkstub.obj
+ 0001:0000eeec       NKRegQueryValueExW         1000feec f   nkstub:nkstub.obj
+ 0001:0000ef54       NKRegSetValueExW           1000ff54 f   nkstub:nkstub.obj
+ 0001:0000efbc       NKForceCleanBoot           1000ffbc f   nkstub:nkstub.obj
+ 0001:0000efe8       NKReboot                   1000ffe8 f   nkstub:nkstub.obj
+ 0001:0000f028       NKwcslen                   10010028 f   nkstub:nkstub.obj
+ 0001:0000f068       NKwcscmp                   10010068 f   nkstub:nkstub.obj
+ 0001:0000f0b0       NKwcsicmp                  100100b0 f   nkstub:nkstub.obj
+ 0001:0000f0f8       NKwcsnicmp                 100100f8 f   nkstub:nkstub.obj
+ 0001:0000f148       NKwcscpy                   10010148 f   nkstub:nkstub.obj
+ 0001:0000f184       NKwcsncpy                  10010184 f   nkstub:nkstub.obj
+ 0001:0000f1d4       NKstrcmpiAandW             100101d4 f   nkstub:nkstub.obj
+ 0001:0000f21c       NKUnicodeToAscii           1001021c f   nkstub:nkstub.obj
+ 0001:0000f260       NKAsciiToUnicode           10010260 f   nkstub:nkstub.obj
+ 0001:0000f2a4       NKSystemTimeToFileTime     100102a4 f   nkstub:nkstub.obj
+ 0001:0000f2ec       NKFileTimeToSystemTime     100102ec f   nkstub:nkstub.obj
+ 0001:0000f334       NKCompareFileTime          10010334 f   nkstub:nkstub.obj
+ 0001:0000f37c       ProfilerHit                1001037c f   nkstub:nkstub.obj
+ 0001:0000f3d4       ProfilerHitEx              100103d4 f   nkstub:nkstub.obj
+ 0001:0000f408       GetEPC                     10010408 f   nkstub:nkstub.obj
+ 0001:0000f440       NKPhysToVirt               10010440 f   nkstub:nkstub.obj
+ 0001:0000f488       NKVirtToPhys               10010488 f   nkstub:nkstub.obj
+ 0001:0000f4c8       __GetUserKData             100104c8 f   nkstub:nkstub.obj
+ 0001:0000f4ec       __report_gsfailure         100104ec f   nkstub:nkstub.obj
+ 0001:0000f518       OEMInitDebugSerial         10010518 f   oemstub:oemstub.obj
+ 0001:0000f544       OEMInit                    10010544 f   oemstub:oemstub.obj
+ 0001:0000f570       OEMWriteDebugByte          10010570 f   oemstub:oemstub.obj
+ 0001:0000f5a4       OEMWriteDebugString        100105a4 f   oemstub:oemstub.obj
+ 0001:0000f5d8       OEMWriteDebugLED           100105d8 f   oemstub:oemstub.obj
+ 0001:0000f614       OEMReadDebugByte           10010614 f   oemstub:oemstub.obj
+ 0001:0000f64c       OEMCacheRangeFlush         1001064c f   oemstub:oemstub.obj
+ 0001:0000f690       OEMInitClock               10010690 f   oemstub:oemstub.obj
+ 0001:0000f6bc       OEMGetRealTime             100106bc f   oemstub:oemstub.obj
+ 0001:0000f6fc       OEMSetRealTime             100106fc f   oemstub:oemstub.obj
+ 0001:0000f73c       OEMSetAlarmTime            1001073c f   oemstub:oemstub.obj
+ 0001:0000f77c       OEMGetTickCount            1001077c f   oemstub:oemstub.obj
+ 0001:0000f7b4       OEMIdle                    100107b4 f   oemstub:oemstub.obj
+ 0001:0000f7e8       OEMPowerOff                100107e8 f   oemstub:oemstub.obj
+ 0001:0000f814       OEMGetExtensionDRAM        10010814 f   oemstub:oemstub.obj
+ 0001:0000f85c       OEMInterruptDisable        1001085c f   oemstub:oemstub.obj
+ 0001:0000f890       OEMInterruptEnable         10010890 f   oemstub:oemstub.obj
+ 0001:0000f8e0       OEMInterruptDone           100108e0 f   oemstub:oemstub.obj
+ 0001:0000f914       OEMInterruptMask           10010914 f   oemstub:oemstub.obj
+ 0001:0000f950       OEMNotifyIntrOccurs        10010950 f   oemstub:oemstub.obj
+ 0001:0000f990       OEMIoControl               10010990 f   oemstub:oemstub.obj
+ 0001:0000fab4       OEMProfileTimerDisable     10010ab4 f   oemstub:oemstub.obj
+ 0001:0000faf4       OEMProfileTimerEnable      10010af4 f   oemstub:oemstub.obj
+ 0001:0000fb68       OEMGetLastTLBIdx           10010b68 f   oemstub:oemstub.obj
+ 0001:0000fb8c       OEMGetArchFlagOverride     10010b8c f   oemstub:oemstub.obj
+ 0001:0000fbb0       OALPCIConfig               10010bb0 f   oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00010d9c       OALPCIGetId                10011d9c f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00010ec8       OALPCIGetMBAR              10011ec8 f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00011018       OALPCIGetInterruptPin      10012018 f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:00011148       OALPCIGetHeaderType        10012148 f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:0001127c       OALPCIGetSecBusNum         1001227c f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:000113b0       OALPCIGetSubBusNum         100123b0 f   oal_pci_vrc5477_ms_v1:id.obj
+ 0001:000114e4       OALPCICfgRead              100124e4 f   oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00011a68       OALPCICfgWrite             10012a68 f   oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00012070       OALPCIPowerOff             10013070 f   oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:0001207c       OALPCIPowerOn              1001307c f   oal_pci_vrc5477_ms_v1:pci.obj
+ 0001:00012088       OALKitlGetDevLoc           10013088 f   oal_kitl_pci:kitl.obj
+ 0001:000120f0       OALKitlGetFlags            100130f0 f   oal_kitl_pci:kitl.obj
+ 0001:00012140       OEMKitlInit                10013140 f   oal_kitl_pci:kitl.obj
+ 0001:000122d4       OALKitlInit                100132d4 f   oal_kitl_pci:kitl.obj
+ 0001:000128e0       OALKitlPowerOff            100138e0 f   oal_kitl_pci:kitl.obj
+ 0001:00012a34       OALKitlPowerOn             10013a34 f   oal_kitl_pci:kitl.obj
+ 0001:00012b70       OEMKitlIoctl               10013b70 f   oal_kitl_pci:kitlioctl.obj
+ 0001:00012c00       OALKitlSerialInit          10013c00 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013b08       DecodeIP                   10014b08 f   oal_kitl_pci:kitleth.obj
+ 0001:00014ed8       OALIoCtlVBridge            10015ed8 f   oal_kitl_pci:kitleth.obj
+ 0001:0001521c       OALKitlEthInit             1001621c f   oal_kitl_pci:kitleth.obj
+ 0001:00016ba0       OALKitlFindDevice          10017ba0 f   oal_kitl_pci:device.obj
+ 0001:0001712c       OALKitlDeviceName          1001812c f   oal_kitl_pci:device.obj
+ 0001:00017398       OALKitlDeviceType          10018398 f   oal_kitl_pci:device.obj
+ 0001:00017598       OALKitlIPtoString          10018598 f   oal_kitl_pci:format.obj
+ 0001:00017634       OALKitlMACtoString         10018634 f   oal_kitl_pci:format.obj
+ 0001:000176ec       OALKitlStringToIP          100186ec f   oal_kitl_pci:format.obj
+ 0001:00017854       OALKitlStringToMAC         10018854 f   oal_kitl_pci:format.obj
+ 0001:00017b0c       RegisterKITL               10018b0c f   oal_kitl_pci:registry.obj
+ 0001:00018064       OALKitlInitRegistry        10019064 f   oal_kitl_pci:registry.obj
+ 0001:00018130       OALKitlCreateName          10019130 f   oal_kitl_pci:name.obj
+ 0001:000183d8       RTL8139InitDMABuffer       100193d8 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000186dc       RTL8139Init                100196dc f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00018bb0       RTL8139SendFrame           10019bb0 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00018e10       RTL8139GetFrame            10019e10 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:000191a0       RTL8139EnableInts          1001a1a0 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00019278       RTL8139DisableInts         1001a278 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00019350       RTL8139CurrentPacketFilter 1001a350 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00019588       RTL8139MulticastList       1001a588 f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00019934       AM79C973InitDMABuffer      1001a934 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:00019af0       AM79C973Init               1001aaf0 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a34c       AM79C973PowerOff           1001b34c f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a3bc       AM79C973PowerOn            1001b3bc f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a3dc       AM79C973SendFrame          1001b3dc f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a61c       AM79C973GetFrame           1001b61c f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a908       AM79C973EnableInts         1001b908 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a9f4       AM79C973DisableInts        1001b9f4 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001aac4       AM79C973CurrentPacketFilter 1001bac4 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001ad44       AM79C973MulticastList      1001bd44 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001b168       READ_REGISTER_UCHAR        1001c168 f   ddk_io:ddk_io.obj
+ 0001:0001b18c       READ_REGISTER_USHORT       1001c18c f   ddk_io:ddk_io.obj
+ 0001:0001b1b0       READ_REGISTER_ULONG        1001c1b0 f   ddk_io:ddk_io.obj
+ 0001:0001b1d4       READ_REGISTER_BUFFER_UCHAR 1001c1d4 f   ddk_io:ddk_io.obj
+ 0001:0001b224       READ_REGISTER_BUFFER_USHORT 1001c224 f   ddk_io:ddk_io.obj
+ 0001:0001b274       READ_REGISTER_BUFFER_ULONG 1001c274 f   ddk_io:ddk_io.obj
+ 0001:0001b2c4       WRITE_REGISTER_UCHAR       1001c2c4 f   ddk_io:ddk_io.obj
+ 0001:0001b2e0       WRITE_REGISTER_USHORT      1001c2e0 f   ddk_io:ddk_io.obj
+ 0001:0001b2fc       WRITE_REGISTER_ULONG       1001c2fc f   ddk_io:ddk_io.obj
+ 0001:0001b318       WRITE_REGISTER_BUFFER_UCHAR 1001c318 f   ddk_io:ddk_io.obj
+ 0001:0001b368       WRITE_REGISTER_BUFFER_USHORT 1001c368 f   ddk_io:ddk_io.obj
+ 0001:0001b3b8       WRITE_REGISTER_BUFFER_ULONG 1001c3b8 f   ddk_io:ddk_io.obj
+ 0001:0001b408       READ_PORT_UCHAR            1001c408 f   ddk_io:ddk_io.obj
+ 0001:0001b42c       READ_PORT_USHORT           1001c42c f   ddk_io:ddk_io.obj
+ 0001:0001b450       READ_PORT_ULONG            1001c450 f   ddk_io:ddk_io.obj
+ 0001:0001b474       READ_PORT_BUFFER_UCHAR     1001c474 f   ddk_io:ddk_io.obj
+ 0001:0001b4c4       READ_PORT_BUFFER_USHORT    1001c4c4 f   ddk_io:ddk_io.obj
+ 0001:0001b514       READ_PORT_BUFFER_ULONG     1001c514 f   ddk_io:ddk_io.obj
+ 0001:0001b564       WRITE_PORT_UCHAR           1001c564 f   ddk_io:ddk_io.obj
+ 0001:0001b580       WRITE_PORT_USHORT          1001c580 f   ddk_io:ddk_io.obj
+ 0001:0001b59c       WRITE_PORT_ULONG           1001c59c f   ddk_io:ddk_io.obj
+ 0001:0001b5b8       WRITE_PORT_BUFFER_UCHAR    1001c5b8 f   ddk_io:ddk_io.obj
+ 0001:0001b608       WRITE_PORT_BUFFER_USHORT   1001c608 f   ddk_io:ddk_io.obj
+ 0001:0001b658       WRITE_PORT_BUFFER_ULONG    1001c658 f   ddk_io:ddk_io.obj
+ 0001:0001b6a8       VBridgeDisplayHex          1001c6a8 f   vbridge:vbridge.obj
+ 0001:0001b6fc       VBridgeDumpMemory          1001c6fc f   vbridge:vbridge.obj
+ 0001:0001b7d0       ProduceBuffer              1001c7d0 f   vbridge:vbridge.obj
+ 0001:0001ba40       ProduceBufferDone          1001ca40 f   vbridge:vbridge.obj
+ 0001:0001bab0       ConsumeBuffer              1001cab0 f   vbridge:vbridge.obj
+ 0001:0001bcb0       ConsumeBufferDone          1001ccb0 f   vbridge:vbridge.obj
+ 0001:0001bd98       VBridgeInit                1001cd98 f   vbridge:vbridge.obj
+ 0001:0001bf14       VBridgeKGetOneTxBuffer     1001cf14 f   vbridge:vbridge.obj
+ 0001:0001bfd8       VBridgeKGetOneTxBufferComplete 1001cfd8 f   vbridge:vbridge.obj
+ 0001:0001c040       VBridgeKIndicateOneRxBuffer 1001d040 f   vbridge:vbridge.obj
+ 0001:0001c1bc       VBridgeKSetLocalMacAddress 1001d1bc f   vbridge:vbridge.obj
+ 0001:0001c290       VBridgeUGetOneTxPacket     1001d290 f   vbridge:vbridge.obj
+ 0001:0001c340       VBridgeUGetOneTxPacketComplete 1001d340 f   vbridge:vbridge.obj
+ 0001:0001c3ac       VBridgeUGetOneRxPacket     1001d3ac f   vbridge:vbridge.obj
+ 0001:0001c458       VBridgeUGetOneRxPacketComplete 1001d458 f   vbridge:vbridge.obj
+ 0001:0001c4bc       VBridgeUWildCard           1001d4bc f   vbridge:vbridge.obj
+ 0001:0001c5b4       VBridgeUGetEDBGMac         1001d5b4 f   vbridge:vbridge.obj
+ 0001:0001c618       VBridgeUCurrentPacketFilter 1001d618 f   vbridge:vbridge.obj
+ 0001:0001c680       PCIReg                     1001d680 f   pcireg:PCIreg.obj
+ 0001:0001cdf8       RegSetVal                  1001ddf8 f   pcireg:PCIreg.obj
+ 0001:0001ced8       RegSetList                 1001ded8 f   pcireg:PCIreg.obj
+ 0001:0001d1bc       PCIInitInfo                1001e1bc f   pcireg:PCIreg.obj
+ 0001:0001d32c       memcmp                     1001e32c f   fulllibc:memorym.obj
+ 0001:0001d6a4       memcpy                     1001e6a4 f   fulllibc:memorym.obj
+ 0001:0001d7d8       memmove                    1001e7d8 f   fulllibc:memorym.obj
+ 0001:0001df70       memset                     1001ef70 f   fulllibc:memorym.obj
+ 0001:0001e108       strcmp                     1001f108 f   fulllibc:strcmpm.obj
+ 0001:0001e14c       strcpy                     1001f14c f   fulllibc:strcpym.obj
+ 0001:0001e298       strlen                     1001f298 f   fulllibc:strlenm.obj
+ 0001:0001e2b8       __GSHandlerCheck           1001f2b8 f   fulllibc:gshandler.obj
+ 0001:0001e308       __GSHandlerCheckCommon     1001f308 f   fulllibc:gshandler.obj
+ 0001:0001e3b8       __security_check_cookie    1001f3b8 f   fulllibc:mipssecgs.obj
+ 0001:0001e400       __GSHandlerCheck_SEH       1001f400 f   fulllibc:gshandlerseh.obj
+ 0001:0001e48c       __C_specific_handler       1001f48c f   fulllibc:chandler.obj
+ 0001:0001e7e8       atol                       1001f7e8 f   fulllibc:atox.obj
+ 0001:0001e9cc       atoi                       1001f9cc f   fulllibc:atox.obj
+ 0001:0001ea00       _itow                      1001fa00 f   fulllibc:xtow.obj
+ 0001:0001ebf4       _ltow                      1001fbf4 f   fulllibc:xtow.obj
+ 0001:0001ec6c       _ultow                     1001fc6c f   fulllibc:xtow.obj
+ 0001:0001ecb4       __C_ExecuteExceptionFilter 1001fcb4 f   fulllibc:jmpuwind.obj
+ 0001:0001ecc0       __C_ExecuteTerminationHandler 1001fcc0 f   fulllibc:jmpuwind.obj
+ 0001:0001eccc       OALLogSerial               1001fccc f   kitl_log:log.obj
+ 0001:0001ed3c       OALLogPrintf               1001fd3c f   kitl_log:log.obj
+ 0002:00000080       g_kitlDevices              10020080     kitl.obj
+ 0002:000000f8       g_dwKITLThreadPriority     100200f8     kitlcore:ethdbg.obj
+ 0002:000000fc       g_dwKITLTimerThreadPriority 100200fc     kitlcore:ethdbg.obj
+ 0002:00000100       __security_cookie          10020100     nkstub:nkstub.obj
+ 0002:00000104       __security_cookie_complement 10020104     nkstub:nkstub.obj
+ 0002:00000108       dpCurSettings              10020108     kitl_log:debug.obj
+ 0002:00025f80       dwCurrentPacketFilter      10045f80     vbridge:vbridge.obj
+ 0002:00025f84       bValidAddress              10045f84     vbridge:vbridge.obj
+ 0002:00025f88       bWarnNoMacDone             10045f88     vbridge:vbridge.obj
+ 0002:00025f8c       g_bResetBuffer             10045f8c     vbridge:vbridge.obj
+ 0002:00025f90       g_bUOpened                 10045f90     vbridge:vbridge.obj
+ 0002:00025fa0       preallocent                10045fa0     <common>
+ 0002:00026234       g_KitlInterval             10046234     <common>
+ 0002:00026238       g_pprcNK                   10046238     <common>
+ 0002:00026240       DfltClnts                  10046240     <common>
+ 0002:000263e0       g_kpriv                    100463e0     <common>
+ 0002:00026440       TimerListCS                10046440     <common>
+ 0002:00026454       KITLGlobalState            10046454     <common>
+ 0002:00026460       SendFmtBuf                 10046460     <common>
+ 0002:00026a60       KITLcs                     10046a60     <common>
+ 0002:00026a74       g_pKData                   10046a74     <common>
+ 0002:00026a80       KITLODScs                  10046a80     <common>
+ 0002:00026aa0       KITLKCallcs                10046aa0     <common>
+ 0002:00026ac0       Kitl                       10046ac0     <common>
+ 0002:00026b20       KITLClients                10046b20     <common>
+ 0002:00026d20       g_pNKGlobal                10046d20     <common>
+ 0002:00026d24       g_pOemGlobal               10046d24     <common>
+ 0002:00026d40       g_oalKitlBuffer            10046d40     <common>
+ 0002:00036d40       pucRxMax                   10056d40     <common>
+ 0002:00036d44       pucTxConsumer              10056d44     <common>
+ 0002:00036d48       pucTxMin                   10056d48     <common>
+ 0002:00036d60       TxBuffers                  10056d60     <common>
+ 0002:0003ad64       pucRxProducer              1005ad64     <common>
+ 0002:0003ad68       EDBGMacAddress             1005ad68     <common>
+ 0002:0003ad70       pucTxMax                   1005ad70     <common>
+ 0002:0003ad74       pucRxMin                   1005ad74     <common>
+ 0002:0003ad78       pucTxProducer              1005ad78     <common>
+ 0002:0003ad7c       pucRxConsumer              1005ad7c     <common>
+ 0002:0003ad80       RxBuffers                  1005ad80     <common>
+
+ entry point at        0001:00007f78
+
+ Static symbols
+
+ 0001:000058c4       DoRegisterClient           100068c4 f   kitlcore:ethdbg.obj
+ 0001:00005d24       NewClient                  10006d24 f   kitlcore:ethdbg.obj
+ 0001:00005f98       RegisterClientPart2        10006f98 f   kitlcore:ethdbg.obj
+ 0001:00006aec       StartKitl                  10007aec f   kitlcore:ethdbg.obj
+ 0001:00006dd0       KITLConnectToDesktop       10007dd0 f   kitlcore:ethdbg.obj
+ 0001:00006f9c       ChkCnxDsktp                10007f9c f   kitlcore:ethdbg.obj
+ 0001:00006fc4       TranCnxDsktp               10007fc4 f   kitlcore:ethdbg.obj
+ 0001:000074fc       MemCopyToUserPtr           100084fc f   kitlcore:ethdbg.obj
+ 0001:00007544       MemCopyUserPtr             10008544 f   kitlcore:ethdbg.obj
+ 0001:00007608       MemCopyFromUserPtr         10008608 f   kitlcore:ethdbg.obj
+ 0001:00007b44       EnableInts                 10008b44 f   kitlcore:ethdbg.obj
+ 0001:00007bec       KITLInterruptThread        10008bec f   kitlcore:ethdbg.obj
+ 0001:0000824c       vOutputFormatString        1000924c f   kitlcore:debug.obj
+ 0001:000089d8       pOutputByte                100099d8 f   kitlcore:debug.obj
+ 0001:00008a44       pOutputNumHex              10009a44 f   kitlcore:debug.obj
+ 0001:00008b04       pOutputNumDecimal          10009b04 f   kitlcore:debug.obj
+ 0001:00008b70       OutputString               10009b70 f   kitlcore:debug.obj
+ 0001:00008c7c       FormatString               10009c7c f   kitlcore:debug.obj
+ 0001:000091a8       CheckCfg                   1000a1a8 f   kitlcore:edbgprot.obj
+ 0001:000091f0       RetransmitCfg              1000a1f0 f   kitlcore:edbgprot.obj
+ 0001:00009670       KITLPollData               1000a670 f   kitlcore:edbgprot.obj
+ 0001:0000a60c       ChkAck                     1000b60c f   kitlcore:edbgprot.obj
+ 0001:0000a65c       TranAck                    1000b65c f   kitlcore:edbgprot.obj
+ 0001:0000b464       SendAckNack                1000c464 f   kitlcore:edbgprot.obj
+ 0001:0000b74c       ProcessRecvFrame           1000c74c f   kitlcore:edbgprot.obj
+ 0001:0000c91c       ProcessAdminMsg            1000d91c f   kitlcore:edbgprot.obj
+ 0001:0000d080       KITLDecodeFrame            1000e080 f   kitlcore:edbgprot.obj
+ 0001:0000df90       TimerListInsert            1000ef90 f   kitlcore:timer.obj
+ 0001:0000fd74       PCIConfigBus               10010d74 f   oal_pci_vrc5477_ms_v1:config.obj
+ 0001:0000ffd0       PCIScanLocation            10010fd0 f   oal_pci_vrc5477_ms_v1:config.obj
+ 0001:000103d4       PCIConfigDevice            100113d4 f   oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00010834       PCIConfigBridge            10011834 f   oal_pci_vrc5477_ms_v1:config.obj
+ 0001:00013100       SerialSend                 10014100 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013298       SerialRecv                 10014298 f   oal_kitl_pci:kitlserial.obj
+ 0001:000138f4       ChkSum                     100148f4 f   oal_kitl_pci:kitlserial.obj
+ 0001:0001396c       SerialEncode               1001496c f   oal_kitl_pci:kitlserial.obj
+ 0001:00013a18       SerialDecode               10014a18 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013a60       SerialEnableInt            10014a60 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013ab8       SerialGetDevCfg            10014ab8 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013ae4       SerialSetHostCfg           10014ae4 f   oal_kitl_pci:kitlserial.obj
+ 0001:00013c74       Sum                        10014c74 f   oal_kitl_pci:kitleth.obj
+ 0001:00013d50       DecodeICMP                 10014d50 f   oal_kitl_pci:kitleth.obj
+ 0001:00013f10       EncodeIP                   10014f10 f   oal_kitl_pci:kitleth.obj
+ 0001:00014100       DecodeUDP                  10015100 f   oal_kitl_pci:kitleth.obj
+ 0001:000144f4       DecodeDHCP                 100154f4 f   oal_kitl_pci:kitleth.obj
+ 0001:000147f4       FindDHCPOption             100157f4 f   oal_kitl_pci:kitleth.obj
+ 0001:00014898       SendDHCP                   10015898 f   oal_kitl_pci:kitleth.obj
+ 0001:00014bec       EncodeUDP                  10015bec f   oal_kitl_pci:kitleth.obj
+ 0001:00014d70       AddDHCPOption              10015d70 f   oal_kitl_pci:kitleth.obj
+ 0001:00014e3c       RenewDHCP                  10015e3c f   oal_kitl_pci:kitleth.obj
+ 0001:00015a24       GetAddressDHCP             10016a24 f   oal_kitl_pci:kitleth.obj
+ 0001:00015e28       SendARP                    10016e28 f   oal_kitl_pci:kitleth.obj
+ 0001:00015fb0       GetOpARP                   10016fb0 f   oal_kitl_pci:kitleth.obj
+ 0001:00016068       KitlEthDecode              10017068 f   oal_kitl_pci:kitleth.obj
+ 0001:00016230       DecodeARP                  10017230 f   oal_kitl_pci:kitleth.obj
+ 0001:000162f8       KitlEthEncode              100172f8 f   oal_kitl_pci:kitleth.obj
+ 0001:000163f8       KitlEthGetFrameHdrSize     100173f8 f   oal_kitl_pci:kitleth.obj
+ 0001:00016414       KitlEthSetHostCfg          10017414 f   oal_kitl_pci:kitleth.obj
+ 0001:00016438       KitlEthGetDevCfg           10017438 f   oal_kitl_pci:kitleth.obj
+ 0001:000165e4       KitlEthSend                100175e4 f   oal_kitl_pci:kitleth.obj
+ 0001:00016890       KitlEthRecv                10017890 f   oal_kitl_pci:kitleth.obj
+ 0001:00016acc       KitlEthEnableInt           10017acc f   oal_kitl_pci:kitleth.obj
+ 0001:00016fe0       OALKitlPCIInfo             10017fe0 f   oal_kitl_pci:device.obj
+ 0001:00017c4c       PCIReadBARs                10018c4c f   oal_kitl_pci:registry.obj
+ 0001:0001980c       ComputeCRC                 1001a80c f   oal_ethdrv_rtl8139:rtl8139.obj
+ 0001:00019c5c       HWInit                     1001ac5c f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a1a0       ReadCSR                    1001b1a0 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a1f4       WriteCSR                   1001b1f4 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a244       WriteBCR                   1001b244 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001a294       ReadPhy                    1001b294 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001b048       HashAddress                1001c048 f   oal_ethdrv_am79c973:am79c973.obj
+ 0001:0001d0ec       scpy                       1001e0ec f   pcireg:PCIreg.obj
+ 0001:0001d15c       slen                       1001e15c f   pcireg:PCIreg.obj
+ 0001:0001d260       sncpy                      1001e260 f   pcireg:PCIreg.obj
+ 0001:0001e938       isspace                    1001f938 f   fulllibc:atox.obj
+ 0001:0001ea84       xtow                       1001fa84 f   fulllibc:xtow.obj

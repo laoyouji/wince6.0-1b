@@ -1,0 +1,63 @@
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+;
+; Use of this sample source code is subject to the terms of the Microsoft
+; license agreement under which you licensed this sample source code. If
+; you did not accept the terms of the license agreement, you are not
+; authorized to use this sample source code. For the terms of the license,
+; please see the license agreement between you and Microsoft or, if applicable,
+; see the LICENSE.RTF on your install media or the root of your tools installation.
+; THE SAMPLE SOURCE CODE IS PROVIDED "AS IS", WITH NO WARRANTIES.
+;
+;-------------------------------------------------------------------------------
+;
+; Rockhopper CPU VR5500 board has 128MB DRAM (0x00000000 to 0x07FFFFFF) and
+; 32MB FLASH (0x18000000 to 0x1BFFFFFF). When boot from flash is selected
+; by jumpers last 4MB of flash is mapped also to address 0x1FC00000 where CPU
+; jumps on reset. When DIP2-5 switch is on boot mapping work in boot page mode. 
+; The page has 512KB size and DIP2 switches 6 to 8 selects page to be mapped
+; on boot. In boot page mode only 512KB frame is mapped to address 0x1FC00000.
+; By default image is flashed to page 0 when it is dowloaded to device with
+; platform builder. If page change is required modify ROMOFFSET bellow to value
+; 0x11C80000 + page * 0x80000 (which move image to 0x99C00000 + offset).
+;
+; To allow simply flash update eboot copies itself to top of DRAM memory when
+; it start (see eboot/mips/start.s). This allows to use lower part for OS image
+; download or copy from flash. Top 2KB are used to pass parameters from EBOOT
+; to OS kernel HAL. The EBOOT also uses last 128KB FLASH memory page to store
+; its persistent configuration parameters.
+;
+;-------------------------------------------------------------------------------
+;         
+;
+
+MEMORY
+;   Name        Start     Size      Type
+;   -------     --------  --------  ----
+    FRAM        80001000  01FFF000  RESERVED        ; buffer for image to flash
+    RAM         87D80000  00100000  RAM             ; boot loader memory
+    STACK       87E80000  00010000  RESERVED        ; boot loader stack
+    BOOT        87F80000  0007F800  RAMIMAGE        ; boot loader code
+    ARGS        87FFF800  00000800  RESERVED        ; boot/oal args structure
+    FLASH       9FC00000  00060000  RESERVED        ; boot loader code flash
+    CFG         9FC60000  00020000  RESERVED        ; boot loader config flash
+
+CONFIG
+    COMPRESSION=OFF
+    KERNELFIXUPS=ON
+    PROFILE=OFF
+    BOOTJUMP=BFC00000
+
+; NEC PMON wants to see RAM addresses in the s-record image.
+IF BUILD_SRE !
+    ROMOFFSET=11C80000
+ELSE
+    ROMOFFSET=FA080000
+    SRE=ON
+ENDIF
+
+MODULES
+; Name            Path                                                            Memory Type
+; --------------  --------------------------------------------------------------  -----------
+  nk.exe          $(_TARGETPLATROOT)\target\$(_TGTCPU)\$(WINCEDEBUG)\boot.exe     BOOT

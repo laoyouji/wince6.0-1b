@@ -1,0 +1,11 @@
+OBJECTS=\
+    obj\MIPSII\debug\init.obj\
+    obj\MIPSII\debug\intr.obj\
+    obj\MIPSII\debug\pci.obj\
+    obj\MIPSII\debug\ioctl.obj\
+    obj\MIPSII\debug\args.obj\
+    obj\MIPSII\debug\debug.obj\
+    obj\MIPSII\debug\power.obj\
+    obj\MIPSII\debug\rtc.obj\
+    obj\MIPSII\debug\startup.obj
+

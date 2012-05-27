@@ -1,0 +1,552 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000000:PROGC ] Build started with parameters:
+BUILD: [00:0000000001:PROGC ] Build started in directory: C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [00:0000000002:PROGC ] Checking for C:\WINCE600\sdk\bin\i386\srccheck.exe.
+BUILD: [00:0000000003:PROGC ] Running passes WCEFILES0, MIDL, MC, ASN, THUNK, PRECOMPHEADER, COMPILE, LIB, LINK, MANAGEDRESX, MANAGEDMOD, MANAGEDDLL, MANAGEDEXE, MANAGEDWIN for MIPS.
+BUILD: [00:0000000004:PROGC ] Computing include file dependencies:
+BUILD: [00:0000000005:PROGC ] Checking for SDK include directory: C:\WINCE600\sdk\CE\inc.
+BUILD: [00:0000000006:PROGC ] Scan C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\
+BUILD: [00:0000000007:PROGC ] Scan C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\
+BUILD: [00:0000000008:PROGC ] Scan C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\
+BUILD: [00:0000000009:PROGC ] Scan C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALEXE\
+BUILD: [00:0000000010:PROGC ] Scan C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\
+BUILD: [00:0000000011:PROGC ] Saving C:\WINCE600\PLATFORM\SG2_VR5500\Build.dat.
+BUILD: [00:0000000012:INFO  ] Done.
+BUILD: [00:0000000013:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ceddk.c because target: obj\MIPSII\debug\ceddk.obj is missing.
+BUILD: [00:0000000014:PROGC ] Building COMPILE Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ directory.
+BUILD: [00:0000000015:PROG  ] 'NMAKE.EXE TargetCompilePass  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000016:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000017:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000018:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000019:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\sources
+BUILD: [01:0000000020:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000021:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL
+BUILD: [01:0000000022:INFO  ] TARGETNAME: ceddk
+BUILD: [01:0000000023:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000024:PROGC ] Compiling .\ceddk.c
+BUILD: [01:0000000025:INFO  ] cl -nologo   -Foobj\MIPSII\debug\ceddk.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\.\ceddk.c
+BUILD: [01:0000000026:INFO  ] ceddk.c
+BUILD: [00:0000000027:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\args.c because target: obj\MIPSII\debug\args.obj is missing.
+BUILD: [00:0000000028:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\kitl.c because target: obj\MIPSII\debug\kitl.obj is missing.
+BUILD: [00:0000000029:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\uart.c because target: obj\MIPSII\debug\uart.obj is missing.
+BUILD: [00:0000000030:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\count.s because target: obj\MIPSII\debug\count.obj is missing.
+BUILD: [00:0000000031:PROGC ] Building COMPILE Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\ directory.
+BUILD: [00:0000000032:PROG  ] 'NMAKE.EXE TargetCompilePass  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000033:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000034:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000035:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000036:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\sources
+BUILD: [01:0000000037:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000038:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL
+BUILD: [01:0000000039:INFO  ] TARGETNAME: kitl
+BUILD: [01:0000000040:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000041:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000042:PROGC ] Compiling ..\args.c
+BUILD: [01:0000000043:INFO  ] cl -nologo   -Foobj\MIPSII\debug\args.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\..\args.c
+BUILD: [01:0000000044:INFO  ] args.c
+BUILD: [01:0000000045:PROGC ] Compiling ..\kitl.c
+BUILD: [01:0000000046:INFO  ] cl -nologo   -Foobj\MIPSII\debug\kitl.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\..\kitl.c
+BUILD: [01:0000000047:INFO  ] kitl.c
+BUILD: [01:0000000048:PROGC ] Compiling ..\uart.c
+BUILD: [01:0000000049:INFO  ] cl -nologo   -Foobj\MIPSII\debug\uart.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\..\uart.c
+BUILD: [01:0000000050:INFO  ] uart.c
+BUILD: [01:0000000051:PROGC ] Assembling ..\count.s
+BUILD: [01:0000000052:INFO  ] 	mipsasm C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\..\count.s -Foobj\MIPSII\debug\count.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi     
+BUILD: [01:0000000053:INFO  ] Microsoft (R) MIPS Assembler Version 14.01.60511
+BUILD: [01:0000000054:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000055:INFO  ] 
+BUILD: [01:0000000056:INFO  ] count.s
+BUILD: [00:0000000057:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\init.c because target: obj\MIPSII\debug\init.obj is missing.
+BUILD: [00:0000000058:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\intr.c because target: obj\MIPSII\debug\intr.obj is missing.
+BUILD: [00:0000000059:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\pci.c because target: obj\MIPSII\debug\pci.obj is missing.
+BUILD: [00:0000000060:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\ioctl.c because target: obj\MIPSII\debug\ioctl.obj is missing.
+BUILD: [00:0000000061:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\args.c because target: obj\MIPSII\debug\args.obj is missing.
+BUILD: [00:0000000062:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\debug.c because target: obj\MIPSII\debug\debug.obj is missing.
+BUILD: [00:0000000063:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\power.c because target: obj\MIPSII\debug\power.obj is missing.
+BUILD: [00:0000000064:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\rtc.c because target: obj\MIPSII\debug\rtc.obj is missing.
+BUILD: [00:0000000065:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\startup.s because target: obj\MIPSII\debug\startup.obj is missing.
+BUILD: [00:0000000066:PROGC ] Building COMPILE Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\ directory.
+BUILD: [00:0000000067:PROG  ] 'NMAKE.EXE TargetCompilePass  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000068:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000069:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000070:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000071:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\sources
+BUILD: [01:0000000072:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000073:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB
+BUILD: [01:0000000074:INFO  ] TARGETNAME: oal
+BUILD: [01:0000000075:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000076:PROGC ] Compiling .\init.c
+BUILD: [01:0000000077:INFO  ] cl -nologo   -Foobj\MIPSII\debug\init.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\init.c
+BUILD: [01:0000000078:INFO  ] init.c
+BUILD: [01:0000000079:PROGC ] Compiling .\intr.c
+BUILD: [01:0000000080:INFO  ] cl -nologo   -Foobj\MIPSII\debug\intr.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\intr.c
+BUILD: [01:0000000081:INFO  ] intr.c
+BUILD: [01:0000000082:PROGC ] Compiling .\pci.c
+BUILD: [01:0000000083:INFO  ] cl -nologo   -Foobj\MIPSII\debug\pci.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\pci.c
+BUILD: [01:0000000084:INFO  ] pci.c
+BUILD: [01:0000000085:PROGC ] Compiling .\ioctl.c
+BUILD: [01:0000000086:INFO  ] cl -nologo   -Foobj\MIPSII\debug\ioctl.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\ioctl.c
+BUILD: [01:0000000087:INFO  ] ioctl.c
+BUILD: [01:0000000088:PROGC ] Compiling .\args.c
+BUILD: [01:0000000089:INFO  ] cl -nologo   -Foobj\MIPSII\debug\args.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\args.c
+BUILD: [01:0000000090:INFO  ] args.c
+BUILD: [01:0000000091:PROGC ] Compiling .\debug.c
+BUILD: [01:0000000092:INFO  ] cl -nologo   -Foobj\MIPSII\debug\debug.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\debug.c
+BUILD: [01:0000000093:INFO  ] debug.c
+BUILD: [01:0000000094:PROGC ] Compiling .\power.c
+BUILD: [01:0000000095:INFO  ] cl -nologo   -Foobj\MIPSII\debug\power.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\power.c
+BUILD: [01:0000000096:INFO  ] power.c
+BUILD: [01:0000000097:PROGC ] Compiling .\rtc.c
+BUILD: [01:0000000098:INFO  ] cl -nologo   -Foobj\MIPSII\debug\rtc.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\rtc.c
+BUILD: [01:0000000099:INFO  ] rtc.c
+BUILD: [01:0000000100:PROGC ] Assembling .\startup.s
+BUILD: [01:0000000101:INFO  ] 	mipsasm C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\.\startup.s -Foobj\MIPSII\debug\startup.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi     
+BUILD: [01:0000000102:INFO  ] Microsoft (R) MIPS Assembler Version 14.01.60511
+BUILD: [01:0000000103:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000104:INFO  ] 
+BUILD: [01:0000000105:INFO  ] startup.s
+BUILD: [00:0000000106:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\main.c because target: obj\MIPSII\debug\main.obj is missing.
+BUILD: [00:0000000107:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\debug.c because target: obj\MIPSII\debug\debug.obj is missing.
+BUILD: [00:0000000108:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\flash.c because target: obj\MIPSII\debug\flash.obj is missing.
+BUILD: [00:0000000109:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\eth.c because target: obj\MIPSII\debug\eth.obj is missing.
+BUILD: [00:0000000110:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\pci.c because target: obj\MIPSII\debug\pci.obj is missing.
+BUILD: [00:0000000111:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\menu.c because target: obj\MIPSII\debug\menu.obj is missing.
+BUILD: [00:0000000112:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\uart.c because target: obj\MIPSII\debug\uart.obj is missing.
+BUILD: [00:0000000113:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\startup.s because target: obj\MIPSII\debug\startup.obj is missing.
+BUILD: [00:0000000114:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\ because target: BootImage is missing.
+BUILD: [00:0000000115:PROGC ] Building COMPILE Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\ directory.
+BUILD: [00:0000000116:PROG  ] 'NMAKE.EXE TargetCompilePass  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000117:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000118:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000119:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000120:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\sources
+BUILD: [01:0000000121:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000122:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER
+BUILD: [01:0000000123:INFO  ] TARGETNAME: BOOT
+BUILD: [01:0000000124:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000125:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOLIBC=1
+BUILD: [01:0000000126:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000127:PROGC ] Compiling .\main.c
+BUILD: [01:0000000128:INFO  ] cl -nologo   -Foobj\MIPSII\debug\main.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\main.c
+BUILD: [01:0000000129:INFO  ] main.c
+BUILD: [01:0000000130:PROGC ] Compiling .\debug.c
+BUILD: [01:0000000131:INFO  ] cl -nologo   -Foobj\MIPSII\debug\debug.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\debug.c
+BUILD: [01:0000000132:INFO  ] debug.c
+BUILD: [01:0000000133:PROGC ] Compiling .\flash.c
+BUILD: [01:0000000134:INFO  ] cl -nologo   -Foobj\MIPSII\debug\flash.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\flash.c
+BUILD: [01:0000000135:INFO  ] flash.c
+BUILD: [01:0000000136:PROGC ] Compiling .\eth.c
+BUILD: [01:0000000137:INFO  ] cl -nologo   -Foobj\MIPSII\debug\eth.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\eth.c
+BUILD: [01:0000000138:INFO  ] eth.c
+BUILD: [01:0000000139:PROGC ] Compiling .\pci.c
+BUILD: [01:0000000140:INFO  ] cl -nologo   -Foobj\MIPSII\debug\pci.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\pci.c
+BUILD: [01:0000000141:INFO  ] pci.c
+BUILD: [01:0000000142:PROGC ] Compiling .\menu.c
+BUILD: [01:0000000143:INFO  ] cl -nologo   -Foobj\MIPSII\debug\menu.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\menu.c
+BUILD: [01:0000000144:INFO  ] menu.c
+BUILD: [01:0000000145:PROGC ] Compiling .\uart.c
+BUILD: [01:0000000146:INFO  ] cl -nologo   -Foobj\MIPSII\debug\uart.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi  -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -MT -U_MT -W3    /GR-     /GS C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\uart.c
+BUILD: [01:0000000147:INFO  ] uart.c
+BUILD: [01:0000000148:PROGC ] Assembling .\startup.s
+BUILD: [01:0000000149:INFO  ] 	mipsasm C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\.\startup.s -Foobj\MIPSII\debug\startup.obj -c -IMIPS\ -I. -IC:\WINCE600\platform\SG2_VR5500\src\inc -IC:\WINCE600\platform\common\src\soc\vrc5477_ms_v1\inc -IC:\WINCE600\platform\common\src\mips\inc -IC:\WINCE600\platform\common\src\inc -IC:\WINCE600\public\common\sdk\inc -IC:\WINCE600\public\common\oak\inc -IC:\WINCE600\public\common\ddk\inc -IC:\WINCE600\sdk\CE\inc -I.\Resource\0409 -Od -GF -Zi -FdC:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=600 -D_WIN32_WCE=0x600 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DMIPS -DMIPSII -D_MIPS_ -DR4000 -DDEBUG=1  -DCEDDK_USEDDKMACRO -DCOREDLL -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 -WX -Zi     
+BUILD: [01:0000000150:INFO  ] Microsoft (R) MIPS Assembler Version 14.01.60511
+BUILD: [01:0000000151:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000152:INFO  ] 
+BUILD: [01:0000000153:INFO  ] startup.s
+BUILD: [00:0000000154:WARNN ] C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\: Missing source file: C:\WINCE600\public\common\sdk\lib\MIPSII\debug\coredll.lib.
+BUILD: [00:0000000155:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ddk_bus.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000156:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_bus.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000157:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_dma.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000158:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_io.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000159:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_map.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000160:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_time.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000161:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_power.lib because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000162:INFO  ] Will Build C:\WINCE600\public\common\sdk\lib\MIPSII\debug\coredll.lib because filename is missing from build database
+BUILD: [00:0000000163:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\obj\MIPSII\debug\ceddk.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000164:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib is missing.
+BUILD: [00:0000000165:PROGC ] Building LIB Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ directory.
+BUILD: [00:0000000166:PROG  ] 'NMAKE.EXE TargetLibFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000167:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000168:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000169:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000170:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\sources
+BUILD: [01:0000000171:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000172:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL
+BUILD: [01:0000000173:INFO  ] TARGETNAME: ceddk
+BUILD: [01:0000000174:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000175:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib
+BUILD: [01:0000000176:INFO  ] 	link -lib -out:C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib -def:F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\inc\ceddk.def -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm65E7.tmp
+BUILD: [01:0000000177:INFO  ] Microsoft (R) Library Manager Version 8.00.50727.42
+BUILD: [01:0000000178:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000179:INFO  ] 
+BUILD: [01:0000000180:INFO  ] -nodefaultlib 
+BUILD: [01:0000000181:INFO  ] -ignore:4001 
+BUILD: [01:0000000182:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000183:INFO  ] obj\MIPSII\debug\ceddk.obj 
+BUILD: [01:0000000184:INFO  ] C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ddk_bus.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_bus.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_dma.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_io.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_map.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_time.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_power.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\sdk\lib\MIPSII\debug\coredll.lib 
+BUILD: [01:0000000185:INFO  ]    Creating library C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.lib and object C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.exp
+BUILD: [00:0000000186:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\args.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib is missing.
+BUILD: [00:0000000187:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\kitl.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib is missing.
+BUILD: [00:0000000188:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\uart.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib is missing.
+BUILD: [00:0000000189:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\count.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib is missing.
+BUILD: [00:0000000190:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\ because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib is missing.
+BUILD: [00:0000000191:PROGC ] Building LIB Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\ directory.
+BUILD: [00:0000000192:PROG  ] 'NMAKE.EXE TargetLibFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000193:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000194:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000195:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000196:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\sources
+BUILD: [01:0000000197:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000198:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL
+BUILD: [01:0000000199:INFO  ] TARGETNAME: kitl
+BUILD: [01:0000000200:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000201:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000202:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib
+BUILD: [01:0000000203:INFO  ] 	link -lib -out:C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib -def: -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm675D.tmp
+BUILD: [01:0000000204:INFO  ] Microsoft (R) Library Manager Version 8.00.50727.42
+BUILD: [01:0000000205:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000206:INFO  ] 
+BUILD: [01:0000000207:INFO  ] -nodefaultlib 
+BUILD: [01:0000000208:INFO  ] -ignore:4001 
+BUILD: [01:0000000209:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000210:INFO  ] obj\MIPSII\debug\args.obj obj\MIPSII\debug\kitl.obj obj\MIPSII\debug\uart.obj obj\MIPSII\debug\count.obj 
+BUILD: [01:0000000211:INFO  ]    Creating library C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.lib and object C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.exp
+BUILD: [00:0000000212:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\init.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000213:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\intr.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000214:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\pci.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000215:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\ioctl.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000216:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\args.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000217:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\debug.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000218:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\power.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000219:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\rtc.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000220:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\obj\MIPSII\debug\startup.obj because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000221:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\ because target: C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib is missing.
+BUILD: [00:0000000222:PROGC ] Building LIB Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\ directory.
+BUILD: [00:0000000223:PROG  ] 'NMAKE.EXE TargetLibFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000224:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000225:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000226:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000227:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB\sources
+BUILD: [01:0000000228:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000229:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALLIB
+BUILD: [01:0000000230:INFO  ] TARGETNAME: oal
+BUILD: [01:0000000231:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000232:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib
+BUILD: [01:0000000233:INFO  ] 	link -lib -out:C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm68A5.tmp
+BUILD: [00:0000000234:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ddk_bus.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000235:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_bus.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000236:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_dma.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000237:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_io.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000238:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_map.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000239:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_time.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000240:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_power.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000241:INFO  ] Will Build C:\WINCE600\public\common\sdk\lib\MIPSII\debug\coredll.lib because filename is missing from build database
+BUILD: [00:0000000242:INFO  ] Will Build C:\WINCE600\public\common\oak\inc\ceddk.def because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000243:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\obj\MIPSII\debug\ceddk.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000244:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll is missing.
+BUILD: [00:0000000245:PROGC ] Building LINK Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\ directory.
+BUILD: [00:0000000246:PROG  ] 'NMAKE.EXE TargetExeFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1MAKEDLL=1'
+BUILD: [01:0000000247:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000248:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000249:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000250:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL\sources
+BUILD: [01:0000000251:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000252:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\DRIVERS\CEDDK\DLL
+BUILD: [01:0000000253:INFO  ] TARGETNAME: ceddk
+BUILD: [01:0000000254:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000255:INFO  ] 	set LIB=C:\WINCE600\sdk\CE\lib
+BUILD: [01:0000000256:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll
+BUILD: [01:0000000257:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll -dll -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm69DD.tmp
+BUILD: [01:0000000258:INFO  ] Microsoft (R) Incremental Linker Version 8.00.50727.42
+BUILD: [01:0000000259:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000260:INFO  ] 
+BUILD: [01:0000000261:INFO  ] -nodefaultlib 
+BUILD: [01:0000000262:INFO  ] -include:DllMain -entry:_DllMainCRTStartup 
+BUILD: [01:0000000263:INFO  ] -pdb:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.pdb 
+BUILD: [01:0000000264:INFO  ] -pdbaltpath:ceddk.pdb 
+BUILD: [01:0000000265:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000266:INFO  ] -map:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.map 
+BUILD: [01:0000000267:INFO  ] -savebaserelocations:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.rel 
+BUILD: [01:0000000268:INFO  ] -MERGE:.rdata=.text -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 -debugtype:cv,fixup -incremental:no 
+BUILD: [01:0000000269:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000270:INFO  ] /base:0x10000000 
+BUILD: [01:0000000271:INFO  ] obj\MIPSII\debug\ceddk.obj 
+BUILD: [01:0000000272:INFO  ] C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ddk_bus.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_bus.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_dma.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_io.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_map.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_time.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_power.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\sdk\lib\MIPSII\debug\coredll.lib 
+BUILD: [01:0000000273:INFO  ] F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\corelib0.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\corelib1.lib 
+BUILD: [01:0000000274:INFO  ] C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\ceddk.exp 
+BUILD: [01:0000000275:INFO  ] 	editbin /nxcompat C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ceddk.dll
+BUILD: [01:0000000276:INFO  ] Microsoft (R) COFF/PE Editor Version 8.00.50727.42
+BUILD: [01:0000000277:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000278:INFO  ] 
+BUILD: [01:0000000279:INFO  ] 
+BUILD: [00:0000000280:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\kitlcore.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000281:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\nkstub.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000282:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\oemstub.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000283:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000284:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\kitl_log.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000285:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_kitl_pci.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000286:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_rtl8139.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000287:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_am79c973.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000288:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_io.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000289:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\vbridge.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000290:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\pcireg.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000291:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\fulllibc.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000292:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\args.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000293:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\kitl.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000294:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\uart.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000295:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\obj\MIPSII\debug\count.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000296:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\ because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll is missing.
+BUILD: [00:0000000297:PROGC ] Building LINK Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\ directory.
+BUILD: [00:0000000298:PROG  ] 'NMAKE.EXE TargetExeFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1MAKEDLL=1'
+BUILD: [01:0000000299:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000300:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000301:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000302:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL\sources
+BUILD: [01:0000000303:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000304:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\KITL\DLL
+BUILD: [01:0000000305:INFO  ] TARGETNAME: kitl
+BUILD: [01:0000000306:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000307:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000308:INFO  ] 	set LIB=C:\WINCE600\sdk\CE\lib
+BUILD: [01:0000000309:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll
+BUILD: [01:0000000310:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll -dll -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm6C1E.tmp
+BUILD: [01:0000000311:INFO  ] Microsoft (R) Incremental Linker Version 8.00.50727.42
+BUILD: [01:0000000312:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000313:INFO  ] 
+BUILD: [01:0000000314:INFO  ] -nodefaultlib 
+BUILD: [01:0000000315:INFO  ] -entry:KitlDllMain 
+BUILD: [01:0000000316:INFO  ] -pdb:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.pdb 
+BUILD: [01:0000000317:INFO  ] -pdbaltpath:kitl.pdb 
+BUILD: [01:0000000318:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000319:INFO  ] -map:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.map 
+BUILD: [01:0000000320:INFO  ] -savebaserelocations:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.rel 
+BUILD: [01:0000000321:INFO  ] -MERGE:.rdata=.text -subsystem:native /DEBUG /DEBUGTYPE:CV /FIXED:NO -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 -debugtype:cv,fixup -incremental:no 
+BUILD: [01:0000000322:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000323:INFO  ] /base:0x10000000 
+BUILD: [01:0000000324:INFO  ] obj\MIPSII\debug\args.obj obj\MIPSII\debug\kitl.obj obj\MIPSII\debug\uart.obj obj\MIPSII\debug\count.obj 
+BUILD: [01:0000000325:INFO  ] F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\kitlcore.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\nkstub.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\oemstub.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\kitl_log.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_kitl_pci.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_rtl8139.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_am79c973.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_io.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\vbridge.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\pcireg.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib 
+BUILD: [01:0000000326:INFO  ] C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\kitl.exp 
+BUILD: [01:0000000327:WARNN ] fulllibc.lib(atox.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000328:WARNN ] fulllibc.lib(xtow.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000329:WARNN ] fulllibc.lib(chandler.obj) : warning LNK4099: PDB 'ccrthelp.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrthelp.pdb'; linking object as if no debug info
+BUILD: [01:0000000330:INFO  ] 	editbin /nxcompat C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\kitl.dll
+BUILD: [01:0000000331:INFO  ] Microsoft (R) COFF/PE Editor Version 8.00.50727.42
+BUILD: [01:0000000332:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000333:INFO  ] 
+BUILD: [01:0000000334:INFO  ] 
+BUILD: [00:0000000335:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\oemmain.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000336:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\nkstub.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000337:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\nkldr.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000338:INFO  ] Will Build C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000339:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_cache_vr5500_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000340:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_io_pci.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000341:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000342:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_intr_fake_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000343:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_timer_vr5500_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000344:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_profiler_mips.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000345:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ilt.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000346:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_power_fake_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000347:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ioctl_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000348:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_other.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000349:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_log.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000350:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\fulllibc.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000351:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALEXE\ because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe is missing.
+BUILD: [00:0000000352:PROGC ] Building LINK Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALEXE\ directory.
+BUILD: [00:0000000353:PROG  ] 'NMAKE.EXE TargetExeFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000354:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000355:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000356:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000357:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALEXE\sources
+BUILD: [01:0000000358:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000359:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\OAL\OALEXE
+BUILD: [01:0000000360:INFO  ] TARGETNAME: oal
+BUILD: [01:0000000361:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000362:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000363:INFO  ] 	set LIB=C:\WINCE600\sdk\CE\lib
+BUILD: [01:0000000364:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe
+BUILD: [01:0000000365:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm718B.tmp
+BUILD: [01:0000000366:INFO  ] Microsoft (R) Incremental Linker Version 8.00.50727.42
+BUILD: [01:0000000367:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000368:INFO  ] 
+BUILD: [01:0000000369:INFO  ] -nodefaultlib 
+BUILD: [01:0000000370:INFO  ] -entry:StartUp 
+BUILD: [01:0000000371:INFO  ] -pdb:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.pdb 
+BUILD: [01:0000000372:INFO  ] -pdbaltpath:oal.pdb 
+BUILD: [01:0000000373:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000374:INFO  ] -map:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.map 
+BUILD: [01:0000000375:INFO  ] -savebaserelocations:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.rel 
+BUILD: [01:0000000376:INFO  ] -MERGE:.rdata=.text -subsystem:native /DEBUG /DEBUGTYPE:CV /FIXED:NO -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 -debugtype:cv,fixup -incremental:no 
+BUILD: [01:0000000377:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000378:INFO  ] -base:0x00010000 
+BUILD: [01:0000000379:INFO  ] F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\oemmain.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\nkstub.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\nkldr.lib C:\WINCE600\platform\SG2_VR5500\lib\MIPSII\debug\oal.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_cache_vr5500_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_io_pci.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_intr_fake_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_timer_vr5500_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_profiler_mips.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ilt.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_power_fake_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ioctl_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_other.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_log.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib 
+BUILD: [01:0000000380:WARNN ] fulllibc.lib(tolower.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000381:INFO  ] 	editbin /nxcompat C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\oal.exe
+BUILD: [01:0000000382:INFO  ] Microsoft (R) COFF/PE Editor Version 8.00.50727.42
+BUILD: [01:0000000383:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000384:INFO  ] 
+BUILD: [01:0000000385:INFO  ] 
+BUILD: [00:0000000386:WARNN ] File: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\BootImage does not exist (2).
+BUILD: [00:0000000387:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_cache_vr5500_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000388:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_io_pci.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000389:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000390:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_timer_mips_fixtick.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000391:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_log.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000392:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_flash.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000393:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_kitl_pci_boot.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000394:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_rtl8139.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000395:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_am79c973.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000396:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blmenu_pci.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000397:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blnk.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000398:INFO  ] Will Build C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blcommon.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000399:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\ddk_io.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000400:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\eboot.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000401:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\gsnull.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000402:INFO  ] Will Build C:\WINCE600\public\common\oak\lib\MIPSII\debug\fulllibc.lib because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000403:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\main.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000404:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\debug.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000405:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\flash.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000406:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\eth.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000407:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\pci.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000408:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\menu.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000409:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\uart.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000410:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\obj\MIPSII\debug\startup.obj because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000411:INFO  ] Will Build C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\ because target: C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe is missing.
+BUILD: [00:0000000412:PROGC ] Building LINK Pass in C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\ directory.
+BUILD: [00:0000000413:PROG  ] 'NMAKE.EXE TargetExeFiles  -i -c BUILDMSG=Stop.  BUILDROOT=C:\WINCE600\PLATFORM\SG2_VR5500 LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000414:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.default
+BUILD: [01:0000000415:INFO  ] makefile.def: BUILDROOT is C:\WINCE600\PLATFORM\SG2_VR5500
+BUILD: [01:0000000416:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\sources.cmn
+BUILD: [01:0000000417:INFO  ] makefile.def: Including C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER\sources
+BUILD: [01:0000000418:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\Sources.CE
+BUILD: [01:0000000419:INFO  ] Directory: C:\WINCE600\PLATFORM\SG2_VR5500\SRC\BOOTLOADER
+BUILD: [01:0000000420:INFO  ] TARGETNAME: BOOT
+BUILD: [01:0000000421:INFO  ] makefile.def: Including C:\WINCE600\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000422:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOLIBC=1
+BUILD: [01:0000000423:INFO  ] FULLLIBC.LIB found in TARGETLIBS; forcing NOCRTDLL=1
+BUILD: [01:0000000424:INFO  ] 	set LIB=C:\WINCE600\sdk\CE\lib
+BUILD: [01:0000000425:PROGC ] Linking C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe
+BUILD: [01:0000000426:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe -machine:MIPS @C:\Users\peter\AppData\Local\Temp\nm74F4.tmp
+BUILD: [01:0000000427:INFO  ] Microsoft (R) Incremental Linker Version 8.00.50727.42
+BUILD: [01:0000000428:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000429:INFO  ] 
+BUILD: [01:0000000430:INFO  ] -nodefaultlib 
+BUILD: [01:0000000431:INFO  ] -entry:StartUp 
+BUILD: [01:0000000432:INFO  ] -pdb:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.pdb 
+BUILD: [01:0000000433:INFO  ] -pdbaltpath:BOOT.pdb 
+BUILD: [01:0000000434:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000435:INFO  ] -map:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.map 
+BUILD: [01:0000000436:INFO  ] -savebaserelocations:C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.rel 
+BUILD: [01:0000000437:INFO  ] -MERGE:.rdata=.text -subsystem:native /DEBUG /DEBUGTYPE:CV /FIXED:NO -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 -debugtype:cv,fixup -incremental:no 
+BUILD: [01:0000000438:INFO  ] /subsystem:windowsce,6.00 
+BUILD: [01:0000000439:INFO  ] -base:0x80000000 
+BUILD: [01:0000000440:INFO  ] obj\MIPSII\debug\main.obj obj\MIPSII\debug\debug.obj obj\MIPSII\debug\flash.obj obj\MIPSII\debug\eth.obj obj\MIPSII\debug\pci.obj obj\MIPSII\debug\menu.obj obj\MIPSII\debug\uart.obj obj\MIPSII\debug\startup.obj 
+BUILD: [01:0000000441:INFO  ] C:\WINCE600\platform\common\lib\MIPSII\debug\oal_cache_vr5500_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_io_pci.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_pci_vrc5477_ms_v1.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_timer_mips_fixtick.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_log.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_flash.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_kitl_pci_boot.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_rtl8139.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_ethdrv_am79c973.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blmenu_pci.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blnk.lib C:\WINCE600\platform\common\lib\MIPSII\debug\oal_blcommon.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\ddk_io.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\eboot.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\gsnull.lib F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib 
+BUILD: [01:0000000442:WARNN ] fulllibc.lib(atox.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000443:WARNN ] fulllibc.lib(xtoa.obj) : warning LNK4099: PDB 'ccrtconv.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtconv.pdb'; linking object as if no debug info
+BUILD: [01:0000000444:WARNN ] fulllibc.lib(lldiv.obj) : warning LNK4099: PDB 'ccrthelp.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrthelp.pdb'; linking object as if no debug info
+BUILD: [01:0000000445:WARNN ] fulllibc.lib(diverr.obj) : warning LNK4099: PDB 'ccrthelp.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrthelp.pdb'; linking object as if no debug info
+BUILD: [01:0000000446:WARNN ] fulllibc.lib(strncpy.obj) : warning LNK4099: PDB 'ccrtstrg.pdb' was not found with 'F:\wplace\wince6-ls1b\LS1B\LS1B\Wince600\SG2_VR5500_MIPSII\cesysgen\oak\lib\MIPSII\debug\fulllibc.lib' or at 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\ccrtstrg.pdb'; linking object as if no debug info
+BUILD: [01:0000000447:INFO  ] 	editbin /nxcompat C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.exe
+BUILD: [01:0000000448:INFO  ] Microsoft (R) COFF/PE Editor Version 8.00.50727.42
+BUILD: [01:0000000449:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000450:INFO  ] 
+BUILD: [01:0000000451:INFO  ] 
+BUILD: [01:0000000452:INFO  ] 	SET BUILD_SRE=1
+BUILD: [01:0000000453:INFO  ] 	romimage boot.bib
+BUILD: [01:0000000454:INFO  ] 
+BUILD: [01:0000000455:INFO  ] Windows CE ROM Image Builder v4.0.120 Copyright (c) Microsoft Corporation
+BUILD: [01:0000000456:INFO  ] Built: Jul 25 2006 16:37:02
+BUILD: [01:0000000457:INFO  ] 
+BUILD: [01:0000000458:INFO  ] Copying C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\boot.exe to C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\nk.exe for debugger
+BUILD: [01:0000000459:INFO  ] Found pTOC at 00005e90
+BUILD: [01:0000000460:INFO  ] No imports for nk.exe
+BUILD: [01:0000000461:INFO  ] Processing BOOT
+BUILD: [01:0000000462:INFO  ] 
+BUILD: [01:0000000463:INFO  ] Writing C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.bin
+BUILD: [01:0000000464:INFO  ] Table of contents  87fa61c0  00000020  (        32)
+BUILD: [01:0000000465:INFO  ] Writing ROM signature and TOC pointer at 87f80040
+BUILD: [01:0000000466:INFO  ] Kernel data copy section  87fa4f98  00000010  (        16)
+BUILD: [01:0000000467:INFO  ] ROM Header                87fa616c  00000054  (        84)
+BUILD: [01:0000000468:INFO  ] First DLL Address:       4001c001
+BUILD: [01:0000000469:INFO  ] Last DLL Address:        4001c001
+BUILD: [01:0000000470:INFO  ] Physical Start Address:  87f80000
+BUILD: [01:0000000471:INFO  ] Physical End Address:    87fa61e0
+BUILD: [01:0000000472:INFO  ] Start RAM:               87d80000
+BUILD: [01:0000000473:INFO  ] Start of free RAM:       87d98000
+BUILD: [01:0000000474:INFO  ] End of RAM:              87e80000
+BUILD: [01:0000000475:INFO  ] Number of Modules:       1
+BUILD: [01:0000000476:INFO  ] Number of Copy Sections: 1
+BUILD: [01:0000000477:INFO  ] Copy Section Offset:     87fa4f98
+BUILD: [01:0000000478:INFO  ] FileSys 4K Chunks/Mbyte: 128 <2Mbyte  128 2-4Mbyte  0 4-6Mbyte  0 >6Mbyte
+BUILD: [01:0000000479:INFO  ] CPU Type:                    0166h
+BUILD: [01:0000000480:INFO  ] Miscellaneous Flags:         0002h
+BUILD: [01:0000000481:INFO  ] Total ROM size:          000261e0 (    156128)
+BUILD: [01:0000000482:INFO  ] Starting ip:             87f80004
+BUILD: [01:0000000483:INFO  ] Raw files size:          00000000
+BUILD: [01:0000000484:INFO  ] Compressed files size:   00000000
+BUILD: [01:0000000485:INFO  ] Compacting bin file...
+BUILD: [01:0000000486:INFO  ] failed moving temp file 'F:\wplace\wince6-ls1b\LS1B\LS1B\RelDir\SG2_VR5500_MIPSII_Debug\bin7977.tmp' to 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.bin': 17
+BUILD: [01:0000000487:INFO  ] Fatal error hit, exiting...
+BUILD: [01:0000000488:INFO  ] 	set BUILD_SRE=
+BUILD: [01:0000000489:INFO  ] 	romimage  boot.bib
+BUILD: [01:0000000490:INFO  ] 
+BUILD: [01:0000000491:INFO  ] Windows CE ROM Image Builder v4.0.120 Copyright (c) Microsoft Corporation
+BUILD: [01:0000000492:INFO  ] Built: Jul 25 2006 16:37:02
+BUILD: [01:0000000493:INFO  ] 
+BUILD: [01:0000000494:INFO  ] Copying C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\boot.exe to C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\nk.exe for debugger
+BUILD: [01:0000000495:INFO  ] Found pTOC at 00005e90
+BUILD: [01:0000000496:INFO  ] No imports for nk.exe
+BUILD: [01:0000000497:INFO  ] Processing BOOT
+BUILD: [01:0000000498:INFO  ] 
+BUILD: [01:0000000499:INFO  ] Writing C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.bin
+BUILD: [01:0000000500:INFO  ] Table of contents  87fa61c0  00000020  (        32)
+BUILD: [01:0000000501:INFO  ] Writing ROM signature and TOC pointer at 87f80040
+BUILD: [01:0000000502:INFO  ] Kernel data copy section  87fa4f98  00000010  (        16)
+BUILD: [01:0000000503:INFO  ] ROM Header                87fa616c  00000054  (        84)
+BUILD: [01:0000000504:INFO  ] First DLL Address:       4001c001
+BUILD: [01:0000000505:INFO  ] Last DLL Address:        4001c001
+BUILD: [01:0000000506:INFO  ] Physical Start Address:  87f80000
+BUILD: [01:0000000507:INFO  ] Physical End Address:    87fa61e0
+BUILD: [01:0000000508:INFO  ] Start RAM:               87d80000
+BUILD: [01:0000000509:INFO  ] Start of free RAM:       87d98000
+BUILD: [01:0000000510:INFO  ] End of RAM:              87e80000
+BUILD: [01:0000000511:INFO  ] Number of Modules:       1
+BUILD: [01:0000000512:INFO  ] Number of Copy Sections: 1
+BUILD: [01:0000000513:INFO  ] Copy Section Offset:     87fa4f98
+BUILD: [01:0000000514:INFO  ] FileSys 4K Chunks/Mbyte: 128 <2Mbyte  128 2-4Mbyte  0 4-6Mbyte  0 >6Mbyte
+BUILD: [01:0000000515:INFO  ] CPU Type:                    0166h
+BUILD: [01:0000000516:INFO  ] Miscellaneous Flags:         0002h
+BUILD: [01:0000000517:INFO  ] Total ROM size:          000261e0 (    156128)
+BUILD: [01:0000000518:INFO  ] Starting ip:             87f80004
+BUILD: [01:0000000519:INFO  ] Raw files size:          00000000
+BUILD: [01:0000000520:INFO  ] Compressed files size:   00000000
+BUILD: [01:0000000521:INFO  ] Compacting bin file...
+BUILD: [01:0000000522:INFO  ] failed moving temp file 'F:\wplace\wince6-ls1b\LS1B\LS1B\RelDir\SG2_VR5500_MIPSII_Debug\bin7A03.tmp' to 'C:\WINCE600\platform\SG2_VR5500\target\MIPSII\debug\BOOT.bin': 17
+BUILD: [01:0000000523:INFO  ] Fatal error hit, exiting...
+BUILD: [00:0000000524:PROGC ] Saving C:\WINCE600\PLATFORM\SG2_VR5500\Build.dat.
+BUILD: [00:0000000525:INFO  ] Done.
+BUILD: [00:0000000526:PROGC ] Done.
+BUILD: [00:0000000527:PROGC ]                        Files  Warnings  Errors
+BUILD: [00:0000000528:PROGC ] Midl                       0         0       0
+BUILD: [00:0000000529:PROGC ] Message                    0         0       0
+BUILD: [00:0000000530:PROGC ] Precomp Header             0         0       0
+BUILD: [00:0000000531:PROGC ] Resource                   0         0       0
+BUILD: [00:0000000532:PROGC ] MASM                       0         0       0
+BUILD: [00:0000000533:PROGC ] SHASM                      0         0       0
+BUILD: [00:0000000534:PROGC ] ARMASM                     0         0       0
+BUILD: [00:0000000535:PROGC ] MIPSASM                    3         0       0
+BUILD: [00:0000000536:PROGC ] C++                        0         0       0
+BUILD: [00:0000000537:PROGC ] C                         19         0       0
+BUILD: [00:0000000538:PROGC ] Static Libraries           1         0       0
+BUILD: [00:0000000539:PROGC ] Exe's                      2         6       0
+BUILD: [00:0000000540:PROGC ] Dll's                      4         3       0
+BUILD: [00:0000000541:PROGC ] Preprocess deffile         0         0       0
+BUILD: [00:0000000542:PROGC ] Resx                       0         0       0
+BUILD: [00:0000000543:PROGC ] CSharp Compile             0         0       0
+BUILD: [00:0000000544:PROGC ] Other                      0         0       0
+BUILD: [00:0000000545:PROGC ] 
+BUILD: [00:0000000546:PROGC ] Total                     29         9       0
+BUILD: [00:0000000547:PROGC ] 
+BUILD: [00:0000000548:PROGC ] 9 Warnings,  0 Errors
+BUILD: [00:0000000549:PROGC ] GetSystemTimes (seconds): Idle: 42    Kernel: 51    User: 14   
+BUILD: [00:0000000550:PROGC ] Elapsed  time  (seconds): 16   

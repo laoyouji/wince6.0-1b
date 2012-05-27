@@ -1,0 +1,6 @@
+OBJECTS=\
+    obj\MIPSII\debug\args.obj\
+    obj\MIPSII\debug\kitl.obj\
+    obj\MIPSII\debug\uart.obj\
+    obj\MIPSII\debug\count.obj
+

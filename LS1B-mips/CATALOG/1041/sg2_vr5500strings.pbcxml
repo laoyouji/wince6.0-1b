@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (c) Microsoft Corporation.  All rights reserved.
+-->
+<!--
+Use of this source code is subject to the terms of the Microsoft end-user
+license agreement (EULA) under which you licensed this SOFTWARE PRODUCT.
+If you did not accept the terms of the EULA, you are not authorized to use
+this source code. For a copy of the EULA, please see the LICENSE.RTF on your
+install media.
+-->
+<CatalogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" RequiredVersion="6.00" xsi:schemaLocation="urn:Microsoft.PlatformBuilder/Catalog PbcXml600.xsd" xmlns="urn:Microsoft.PlatformBuilder/Catalog">
+  <FileInformation Id="FileInformation:MS:Sg2_vr5500:1041">
+    <Title>Microsoft Sg2_vr5500 StringTable 1041</Title>
+    <Vendor>Microsoft</Vendor>
+    <OSVersion>6.00</OSVersion>
+    <FileVersion>6.00</FileVersion>
+  </FileInformation>
+  <StringTable Id="StringTable:MS:Sg2_vr5500:1041" Namespace="MS" Culture="1041">
+    <Title>Microsoft Sg2_vr5500 StringTable 1041</Title>
+    <Item>
+      <Key>Sg2_vr5500:EthernetBootloader(eboot):Title</Key>
+      <Type>Title</Type>
+      <Value>イーサネット ブートローダ (eboot)</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:NECDDBVr5500AMIPSII:Title</Key>
+      <Type>Title</Type>
+      <Value>NEC DDB-Vr5500A: MIPSII</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:NECDDBVr5500AMIPSII_FP:Title</Key>
+      <Type>Title</Type>
+      <Value>NEC DDB-Vr5500A: MIPSII_FP</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:NECDDBVr5500AMIPSIV:Title</Key>
+      <Type>Title</Type>
+      <Value>NEC DDB-Vr5500A: MIPSIV</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:NECDDBVr5500AMIPSIV_FP:Title</Key>
+      <Type>Title</Type>
+      <Value>NEC DDB-Vr5500A: MIPSIV_FP</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:sg2_vr5500:Title</Key>
+      <Type>Title</Type>
+      <Value>sg2_vr5500</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:ABSPfortheNECDD.ngpointsupport.:Description</Key>
+      <Type>Description</Type>
+      <Value>NEC DDB-Vr5500A (Rockhopper) SDB 用の BSP です。プラットフォームはハードウェア浮動小数点サポートのある  MIPSII  アーキテクチャに基づいた OS を使用します。</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:ABSPfortheNECDD.ngpointsupport.:Description:1</Key>
+      <Type>Description</Type>
+      <Value>NEC DDB-Vr5500A (Rockhopper) SDB 用の BSP です。プラットフォームはハードウェア浮動小数点サポートのある  MIPSIV アーキテクチャに基づいた OS を使用します。</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:ABSPfortheNECDD.ulationsupport.:Description</Key>
+      <Type>Description</Type>
+      <Value>NEC DDB-Vr5500A (Rockhopper) SDB 用の BSP です。プラットフォームは浮動小数点エミュレーションのサポートのある  MIPSII  アーキテクチャに基づいた OS を使用します。</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:ABSPfortheNECDD.ulationsupport.:Description:1</Key>
+      <Type>Description</Type>
+      <Value>NEC DDB-Vr5500A (Rockhopper) SDB 用の BSP です。プラットフォームは浮動小数点エミュレーションのサポートのある  MIPSIV アーキテクチャに基づいた OS を使用します。</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:EthernetBootloader(eboot):Description</Key>
+      <Type>Description</Type>
+      <Value>イーサネット ブートローダ (eboot)</Value>
+    </Item>
+    <Item>
+      <Key>Sg2_vr5500:SG2_VR5500BSPCatalogItems:Description</Key>
+      <Type>Description</Type>
+      <Value>SG2_VR5500 BSP カタログ項目</Value>
+    </Item>
+  </StringTable>
+</CatalogFile>

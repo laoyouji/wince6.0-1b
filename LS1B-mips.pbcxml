@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatalogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" RequiredVersion="6.00" xsi:schemaLocation="urn:Microsoft.PlatformBuilder/Catalog PbcXml600.xsd" xmlns="urn:Microsoft.PlatformBuilder/Catalog">
+  <FileInformation Id="FileInformation:1:F:\wplace\wince6-ls1b\LS1B-mips">
+    <Title>F:\wplace\wince6-ls1b\LS1B-mips</Title>
+    <Description>F:\wplace\wince6-ls1b\LS1B-mips BSP Catalog Items</Description>
+    <Vendor>1</Vendor>
+    <OSVersion>6.00</OSVersion>
+    <FileVersion>1.0</FileVersion>
+  </FileInformation>
+  <Bsp Id="Bsp:1:F:\wplace\wince6-ls1b\LS1B-mips:MIPSII_FP">
+    <Title>F:\wplace\wince6-ls1b\LS1B-mips: MIPSII_FP</Title>
+    <Description>ls1b-mips</Description>
+    <PlatformDirectory>F:\wplace\wince6-ls1b\LS1B-mips</PlatformDirectory>
+    <CpuId>Cpu:MIPSII_FP</CpuId>
+    <BspItemId>Item:1:EthernetBootloader:sg2_vr5500_F:\wplace\wince6-ls1b\LS1B-mips</BspItemId>
+  </Bsp>
+  <Bsp Id="Bsp:1:F:\wplace\wince6-ls1b\LS1B-mips:MIPSII">
+    <Title>F:\wplace\wince6-ls1b\LS1B-mips: MIPSII</Title>
+    <Description>ls1b-mips</Description>
+    <PlatformDirectory>F:\wplace\wince6-ls1b\LS1B-mips</PlatformDirectory>
+    <CpuId>Cpu:MIPSII</CpuId>
+    <BspItemId>Item:1:EthernetBootloader:sg2_vr5500_F:\wplace\wince6-ls1b\LS1B-mips</BspItemId>
+  </Bsp>
+  <Bsp Id="Bsp:1:F:\wplace\wince6-ls1b\LS1B-mips:MIPSIV">
+    <Title>F:\wplace\wince6-ls1b\LS1B-mips: MIPSIV</Title>
+    <Description>ls1b-mips</Description>
+    <PlatformDirectory>F:\wplace\wince6-ls1b\LS1B-mips</PlatformDirectory>
+    <CpuId>Cpu:MIPSIV</CpuId>
+    <BspItemId>Item:1:EthernetBootloader:sg2_vr5500_F:\wplace\wince6-ls1b\LS1B-mips</BspItemId>
+  </Bsp>
+  <Bsp Id="Bsp:1:F:\wplace\wince6-ls1b\LS1B-mips:MIPSIV_FP">
+    <Title>F:\wplace\wince6-ls1b\LS1B-mips: MIPSIV_FP</Title>
+    <Description>ls1b-mips</Description>
+    <PlatformDirectory>F:\wplace\wince6-ls1b\LS1B-mips</PlatformDirectory>
+    <CpuId>Cpu:MIPSIV_FP</CpuId>
+    <BspItemId>Item:1:EthernetBootloader:sg2_vr5500_F:\wplace\wince6-ls1b\LS1B-mips</BspItemId>
+  </Bsp>
+  <Item Id="Item:1:EthernetBootloader:sg2_vr5500_F:\wplace\wince6-ls1b\LS1B-mips">
+    <Title>#MS:Sg2_vr5500:EthernetBootloader(eboot):Title</Title>
+    <Description>#MS:Sg2_vr5500:EthernetBootloader(eboot):Description</Description>
+    <HelpLink Action="WceHelpCollection">pb.catalogitem.EthernetBootloader:sg2_vr5500</HelpLink>
+    <Type>BspSpecific</Type>
+    <ChooseOneGroup>true</ChooseOneGroup>
+    <Location />
+    <SourceCode>
+      <Title>$(_WINCEROOT)\PLATFORM\F:\WPLACE\WINCE6-LS1B\LS1B-MIPS\SRC\BOOTLOADER</Title>
+      <Path>$(_WINCEROOT)\PLATFORM\F:\WPLACE\WINCE6-LS1B\LS1B-MIPS\SRC\BOOTLOADER</Path>
+    </SourceCode>
+  </Item>
+</CatalogFile>
